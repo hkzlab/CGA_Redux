@@ -930,7 +930,7 @@ Wire Wire Line
 	7700 2300 6550 2300
 Connection ~ 7700 2300
 Text GLabel 6550 2300 0    50   Input ~ 0
-Q1'
+Q1
 Wire Wire Line
 	8150 2400 6550 2400
 Text GLabel 6550 2400 0    50   Input ~ 0
