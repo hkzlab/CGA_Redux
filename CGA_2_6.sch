@@ -623,10 +623,258 @@ Entry Wire Line
 	3250 1900 3350 1800
 Entry Wire Line
 	3250 2000 3350 1900
+$Comp
+L power:GND #PWR?
+U 1 1 60923FE3
+P 5000 3000
+F 0 "#PWR?" H 5000 2750 50  0001 C CNN
+F 1 "GND" H 5005 2827 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609240B5
+P 5000 1400
+F 0 "#PWR?" H 5000 1250 50  0001 C CNN
+F 1 "VCC" H 5015 1573 50  0000 C CNN
+F 2 "" H 5000 1400 50  0001 C CNN
+F 3 "" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS244 U24
+U 1 1 609240BF
+P 5000 2200
+F 0 "U24" H 4750 2850 50  0000 C CNN
+F 1 "74LS244" H 5200 2850 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 5000 2200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 2000
+NoConn ~ 5500 1900
+NoConn ~ 5500 1800
+NoConn ~ 5500 1700
+NoConn ~ 4500 1700
+NoConn ~ 4500 1800
+NoConn ~ 4500 1900
+NoConn ~ 4500 2000
+NoConn ~ 4500 2600
+Wire Wire Line
+	4500 2700 4300 2700
+Text GLabel 4300 2700 0    50   Input ~ 0
+~STATUS_SEL
+Wire Wire Line
+	4500 2100 4300 2100
+Text GLabel 4300 2100 0    50   Input ~ 0
+V_SYNC_DLY
+Wire Wire Line
+	4500 2200 4300 2200
+Text GLabel 4300 2200 0    50   Input ~ 0
+~LPEN_SW
+Wire Wire Line
+	4500 2300 4300 2300
+Text GLabel 4300 2300 0    50   Input ~ 0
+LPEN_STR
+Wire Wire Line
+	4500 2400 4300 2400
+Text GLabel 4300 2400 0    50   Input ~ 0
+~DISPEN
+Wire Wire Line
+	5500 2100 5700 2100
+Wire Wire Line
+	5500 2200 5700 2200
+Wire Wire Line
+	5500 2300 5700 2300
+Wire Wire Line
+	5500 2400 5700 2400
+Text Label 5550 2100 0    50   ~ 0
+D3
+Text Label 5550 2300 0    50   ~ 0
+D1
+Text Label 5550 2200 0    50   ~ 0
+D2
+Text Label 5550 2400 0    50   ~ 0
+D0
+Entry Wire Line
+	5700 2100 5800 2000
+Entry Wire Line
+	5700 2200 5800 2100
+Entry Wire Line
+	5700 2300 5800 2200
+Entry Wire Line
+	5700 2400 5800 2300
+Wire Bus Line
+	5800 4050 3350 4050
+$Comp
+L 74xx:74LS174 U39
+U 1 1 60997D98
+P 7400 2100
+F 0 "U39" H 7150 2650 50  0000 C CNN
+F 1 "74LS174" H 7600 2650 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7400 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 609996FA
+P 7400 2900
+F 0 "#PWR?" H 7400 2650 50  0001 C CNN
+F 1 "GND" H 7405 2727 50  0000 C CNN
+F 2 "" H 7400 2900 50  0001 C CNN
+F 3 "" H 7400 2900 50  0001 C CNN
+	1    7400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60999E78
+P 7400 1400
+F 0 "#PWR?" H 7400 1250 50  0001 C CNN
+F 1 "VCC" H 7415 1573 50  0000 C CNN
+F 2 "" H 7400 1400 50  0001 C CNN
+F 3 "" H 7400 1400 50  0001 C CNN
+	1    7400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2400 6700 2400
+Text GLabel 6700 2400 0    50   Input ~ 0
+~SEL_2
+Wire Wire Line
+	6900 2600 6700 2600
+Text GLabel 6700 2600 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	6900 1700 6650 1700
+Wire Wire Line
+	6900 1800 6650 1800
+Wire Wire Line
+	6900 1900 6650 1900
+Wire Wire Line
+	6900 2000 6650 2000
+Wire Wire Line
+	6900 2100 6650 2100
+Wire Wire Line
+	6900 2200 6650 2200
+Entry Wire Line
+	6550 1800 6650 1700
+Entry Wire Line
+	6550 1900 6650 1800
+Entry Wire Line
+	6550 2000 6650 1900
+Entry Wire Line
+	6550 2100 6650 2000
+Entry Wire Line
+	6550 2200 6650 2100
+Entry Wire Line
+	6550 2300 6650 2200
+Wire Bus Line
+	5800 1150 6550 1150
+Text Label 6800 1700 0    50   ~ 0
+D0
+Text Label 6800 1800 0    50   ~ 0
+D1
+Text Label 6800 1900 0    50   ~ 0
+D2
+Text Label 6800 2000 0    50   ~ 0
+D3
+Text Label 6800 2100 0    50   ~ 0
+D4
+Text Label 6800 2200 0    50   ~ 0
+D5
+Wire Bus Line
+	6550 1150 9300 1150
+Connection ~ 6550 1150
+Wire Wire Line
+	7900 1700 8100 1700
+Wire Wire Line
+	7900 1800 8100 1800
+Wire Wire Line
+	7900 1900 8100 1900
+Wire Wire Line
+	7900 2000 8100 2000
+Wire Wire Line
+	7900 2100 8100 2100
+Wire Wire Line
+	7900 2200 8100 2200
+Text GLabel 8100 1700 2    50   Output ~ 0
+OVERSCAN_B
+Text GLabel 8100 1800 2    50   Output ~ 0
+OVERSCAN_G
+Text GLabel 8100 1900 2    50   Output ~ 0
+OVERSCAN_R
+Text GLabel 8100 2000 2    50   Output ~ 0
+OVERSCAN_I
+Text GLabel 8100 2100 2    50   Output ~ 0
+BACKGROUND_I
+Text GLabel 8100 2200 2    50   Output ~ 0
+COLOR_SEL
+Entry Wire Line
+	9300 2300 9400 2200
+Entry Wire Line
+	9300 2200 9400 2100
+Entry Wire Line
+	9300 2100 9400 2000
+Entry Wire Line
+	9300 2000 9400 1900
+Entry Wire Line
+	9300 1900 9400 1800
+Entry Wire Line
+	9300 1800 9400 1700
+Entry Wire Line
+	9300 1700 9400 1600
+Entry Wire Line
+	9300 1600 9400 1500
+Wire Wire Line
+	9400 1500 9600 1500
+Wire Wire Line
+	9400 1600 9600 1600
+Wire Wire Line
+	9400 1700 9600 1700
+Wire Wire Line
+	9400 1800 9600 1800
+Wire Wire Line
+	9400 1900 9600 1900
+Wire Wire Line
+	9400 2000 9600 2000
+Wire Wire Line
+	9400 2100 9600 2100
+Wire Wire Line
+	9400 2200 9600 2200
+Text GLabel 9600 1500 2    50   Output ~ 0
+D0
+Text GLabel 9600 1600 2    50   Output ~ 0
+D1
+Text GLabel 9600 1700 2    50   Output ~ 0
+D2
+Text GLabel 9600 1800 2    50   Output ~ 0
+D3
+Text GLabel 9600 1900 2    50   Output ~ 0
+D4
+Text GLabel 9600 2000 2    50   Output ~ 0
+D5
+Text GLabel 9600 2100 2    50   Output ~ 0
+D6
+Text GLabel 9600 2200 2    50   Output ~ 0
+D7
+Wire Bus Line
+	5800 1150 5800 4050
+Wire Bus Line
+	6550 1150 6550 2300
+Wire Bus Line
+	9300 1150 9300 2300
 Wire Bus Line
 	3350 5300 3350 8050
 Wire Bus Line
-	3350 1200 3350 3950
+	3350 1200 3350 4050
 Wire Bus Line
 	1700 1400 1700 8250
 $EndSCHEMATC
