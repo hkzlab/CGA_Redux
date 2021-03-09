@@ -865,6 +865,306 @@ Text GLabel 9600 2100 2    50   Output ~ 0
 D6
 Text GLabel 9600 2200 2    50   Output ~ 0
 D7
+$Comp
+L Memory_EPROM:27C256 U33
+U 1 1 60AA4ACF
+P 5250 6700
+F 0 "U33" H 5000 7750 50  0000 C CNN
+F 1 "27C256" H 5450 7750 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_LongPads" H 5250 6700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 5250 6700 50  0001 C CNN
+	1    5250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60AA6954
+P 5250 5600
+F 0 "#PWR?" H 5250 5450 50  0001 C CNN
+F 1 "VCC" H 5265 5773 50  0000 C CNN
+F 2 "" H 5250 5600 50  0001 C CNN
+F 3 "" H 5250 5600 50  0001 C CNN
+	1    5250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60AA7898
+P 5250 7800
+F 0 "#PWR?" H 5250 7550 50  0001 C CNN
+F 1 "GND" H 5255 7627 50  0000 C CNN
+F 2 "" H 5250 7800 50  0001 C CNN
+F 3 "" H 5250 7800 50  0001 C CNN
+	1    5250 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 7600 4750 7600
+Wire Wire Line
+	4750 7600 4750 7800
+Wire Wire Line
+	4750 7800 5250 7800
+Connection ~ 5250 7800
+$Comp
+L power:VCC #PWR?
+U 1 1 60AB0247
+P 4350 7350
+F 0 "#PWR?" H 4350 7200 50  0001 C CNN
+F 1 "VCC" H 4365 7523 50  0000 C CNN
+F 2 "" H 4350 7350 50  0001 C CNN
+F 3 "" H 4350 7350 50  0001 C CNN
+	1    4350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7350 4350 7400
+Wire Wire Line
+	4350 7400 4750 7400
+Wire Wire Line
+	4850 6900 4750 6900
+Wire Wire Line
+	4750 6900 4750 7000
+Wire Wire Line
+	4750 7200 4850 7200
+Wire Wire Line
+	4850 7000 4750 7000
+Connection ~ 4750 7000
+Wire Wire Line
+	4750 7000 4750 7100
+Wire Wire Line
+	4850 7100 4750 7100
+Connection ~ 4750 7100
+Wire Wire Line
+	4750 7100 4750 7200
+Wire Wire Line
+	4750 7200 4750 7400
+Connection ~ 4750 7200
+Connection ~ 4750 7400
+Wire Wire Line
+	4750 7400 4850 7400
+$Comp
+L 74xx:74LS86 U68
+U 3 1 60AE79BB
+P 2150 9600
+F 0 "U68" H 2150 9925 50  0000 C CNN
+F 1 "74LS86" H 2150 9834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2150 9600 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 2150 9600 50  0001 C CNN
+	3    2150 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS86 U68
+U 4 1 60AE8ED8
+P 3050 9700
+F 0 "U68" H 3050 10025 50  0000 C CNN
+F 1 "74LS86" H 3050 9934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3050 9700 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 3050 9700 50  0001 C CNN
+	4    3050 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 9600 2750 9600
+Wire Wire Line
+	1850 9500 1500 9500
+Wire Wire Line
+	1850 9700 1500 9700
+Wire Wire Line
+	2750 9800 2350 9800
+Wire Wire Line
+	2350 9800 2350 9900
+Wire Wire Line
+	2350 9900 1500 9900
+Text GLabel 1500 9500 0    50   Input ~ 0
+~LCLK
+Text GLabel 1500 9700 0    50   Input ~ 0
+Q4
+Text GLabel 1500 9900 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	4850 7500 3750 7500
+Wire Wire Line
+	3750 7500 3750 9700
+Wire Wire Line
+	3750 9700 3350 9700
+Wire Wire Line
+	4850 6100 4500 6100
+Wire Wire Line
+	4850 6200 4500 6200
+Wire Wire Line
+	4850 6300 4500 6300
+Wire Wire Line
+	4850 6400 4500 6400
+Wire Wire Line
+	4850 6500 4500 6500
+Wire Wire Line
+	4850 6600 4500 6600
+Wire Wire Line
+	4850 6700 4500 6700
+Wire Wire Line
+	4850 6800 4500 6800
+Wire Wire Line
+	4850 5800 4700 5800
+Wire Wire Line
+	4850 5900 4700 5900
+Wire Wire Line
+	4850 6000 4700 6000
+Text GLabel 4700 5800 0    50   Input ~ 0
+RA0
+Text GLabel 4700 5900 0    50   Input ~ 0
+RA1
+Text GLabel 4700 6000 0    50   Input ~ 0
+RA2
+Text Label 4600 6100 0    50   ~ 0
+CC0
+Text Label 4600 6200 0    50   ~ 0
+CC1
+Text Label 4600 6300 0    50   ~ 0
+CC2
+Text Label 4600 6400 0    50   ~ 0
+CC3
+Text Label 4600 6500 0    50   ~ 0
+CC4
+Text Label 4600 6600 0    50   ~ 0
+CC5
+Text Label 4600 6700 0    50   ~ 0
+CC6
+Text Label 4600 6800 0    50   ~ 0
+CC7
+Entry Wire Line
+	4400 6200 4500 6100
+Entry Wire Line
+	4400 6300 4500 6200
+Entry Wire Line
+	4400 6400 4500 6300
+Entry Wire Line
+	4400 6500 4500 6400
+Entry Wire Line
+	4400 6600 4500 6500
+Entry Wire Line
+	4400 6700 4500 6600
+Entry Wire Line
+	4400 6800 4500 6700
+Entry Wire Line
+	4400 6900 4500 6800
+Wire Bus Line
+	4400 5200 3350 5200
+$Comp
+L 74xx:74LS166 U32
+U 1 1 60CBE3E8
+P 7600 6500
+F 0 "U32" H 7300 7350 50  0000 L CNN
+F 1 "74LS166" H 7650 7350 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7600 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS166" H 7600 6500 50  0001 C CNN
+	1    7600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60CBFC41
+P 7600 7500
+F 0 "#PWR?" H 7600 7250 50  0001 C CNN
+F 1 "GND" H 7605 7327 50  0000 C CNN
+F 2 "" H 7600 7500 50  0001 C CNN
+F 3 "" H 7600 7500 50  0001 C CNN
+	1    7600 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60CCD955
+P 7600 5500
+F 0 "#PWR?" H 7600 5350 50  0001 C CNN
+F 1 "VCC" H 7615 5673 50  0000 C CNN
+F 2 "" H 7600 5500 50  0001 C CNN
+F 3 "" H 7600 5500 50  0001 C CNN
+	1    7600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 7000 6500 7000
+Wire Wire Line
+	6500 7000 6500 7450
+Wire Wire Line
+	7100 5800 6500 5800
+Wire Wire Line
+	6500 5800 6500 7000
+Connection ~ 6500 7000
+$Comp
+L power:GND #PWR?
+U 1 1 60CE66D4
+P 6500 7450
+F 0 "#PWR?" H 6500 7200 50  0001 C CNN
+F 1 "GND" H 6505 7277 50  0000 C CNN
+F 2 "" H 6500 7450 50  0001 C CNN
+F 3 "" H 6500 7450 50  0001 C CNN
+	1    6500 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5900 6350 5900
+Wire Wire Line
+	6350 5900 6350 5800
+Wire Wire Line
+	5650 5800 6350 5800
+Wire Wire Line
+	6300 5900 6300 6000
+Wire Wire Line
+	6300 6000 7100 6000
+Wire Wire Line
+	5650 5900 6300 5900
+Wire Wire Line
+	6250 6000 6250 6100
+Wire Wire Line
+	6250 6100 7100 6100
+Wire Wire Line
+	5650 6000 6250 6000
+Wire Wire Line
+	6200 6100 6200 6200
+Wire Wire Line
+	6200 6200 7100 6200
+Wire Wire Line
+	5650 6100 6200 6100
+Wire Wire Line
+	6150 6200 6150 6300
+Wire Wire Line
+	6150 6300 7100 6300
+Wire Wire Line
+	5650 6200 6150 6200
+Wire Wire Line
+	6100 6300 6100 6400
+Wire Wire Line
+	6100 6400 7100 6400
+Wire Wire Line
+	5650 6300 6100 6300
+Wire Wire Line
+	6050 6400 6050 6500
+Wire Wire Line
+	6050 6500 7100 6500
+Wire Wire Line
+	5650 6400 6050 6400
+Wire Wire Line
+	6000 6500 6000 6600
+Wire Wire Line
+	6000 6600 7100 6600
+Wire Wire Line
+	5650 6500 6000 6500
+Text GLabel 6900 7200 0    50   Input ~ 0
+~CLR_SR
+Wire Wire Line
+	7100 7200 6900 7200
+Text GLabel 6900 6900 0    50   Input ~ 0
+DOT_CLK
+Wire Wire Line
+	6900 6900 7100 6900
+Text GLabel 6900 6800 0    50   Input ~ 0
+SL
+Wire Wire Line
+	6900 6800 7100 6800
+Wire Wire Line
+	8100 5800 8250 5800
 Wire Bus Line
 	5800 1150 5800 4050
 Wire Bus Line
@@ -872,9 +1172,13 @@ Wire Bus Line
 Wire Bus Line
 	9300 1150 9300 2300
 Wire Bus Line
-	3350 5300 3350 8050
+	4400 5200 4400 6900
+Wire Bus Line
+	3350 5200 3350 8050
 Wire Bus Line
 	3350 1200 3350 4050
 Wire Bus Line
 	1700 1400 1700 8250
+Text GLabel 8250 5800 2    50   Output ~ 0
+CHG_DOTS
 $EndSCHEMATC
