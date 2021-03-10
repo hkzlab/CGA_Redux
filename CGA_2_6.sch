@@ -1662,6 +1662,22 @@ Text Label 8800 8900 0    50   ~ 0
 AT7
 Wire Wire Line
 	8950 9100 8150 9100
+Text GLabel 8150 9100 0    50   Input ~ 0
+~ENABLE_BLINK
+Wire Wire Line
+	11600 9950 10750 9950
+Wire Wire Line
+	10750 9950 10750 10050
+Wire Wire Line
+	10750 10050 9550 10050
+Text GLabel 9550 10050 0    50   Input ~ 0
+BACKGROUND_I
+Wire Wire Line
+	11600 10050 10850 10050
+Wire Wire Line
+	10850 10050 10850 10150
+Wire Wire Line
+	10850 10150 9550 10150
 Wire Bus Line
 	6000 1600 6000 4500
 Wire Bus Line
@@ -1680,6 +1696,6 @@ Wire Bus Line
 	3550 5650 3550 8500
 Wire Bus Line
 	1900 1850 1900 8700
-Text GLabel 8150 9100 0    50   Input ~ 0
-~ENABLE_BLINK
+Text GLabel 9550 10150 0    50   Input ~ 0
+OVERSCAN_I
 $EndSCHEMATC
