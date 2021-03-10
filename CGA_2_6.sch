@@ -1511,4 +1511,15 @@ Wire Bus Line
 Connection ~ 12750 3950
 Wire Wire Line
 	12750 3950 13300 3950
+$Comp
+L Device:R_Small R2
+U 1 1 612D31E2
+P 5050 8800
+F 0 "R2" H 5109 8846 50  0000 L CNN
+F 1 "2.2k" H 5109 8755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5050 8800 50  0001 C CNN
+F 3 "~" H 5050 8800 50  0001 C CNN
+	1    5050 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
