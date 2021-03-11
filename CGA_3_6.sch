@@ -286,7 +286,7 @@ Wire Wire Line
 	1650 3600 1750 3600
 Wire Wire Line
 	2750 3800 3200 3800
-Text GLabel 3450 3800 2    50   Output ~ 0
+Text GLabel 4200 3800 2    50   Output ~ 0
 HCLK
 Wire Wire Line
 	1750 4500 1400 4500
@@ -378,9 +378,6 @@ Wire Wire Line
 	3500 3400 3200 3400
 Wire Wire Line
 	3200 3400 3200 3800
-Connection ~ 3200 3800
-Wire Wire Line
-	3200 3800 3450 3800
 Wire Wire Line
 	4100 3400 4200 3400
 Text GLabel 4200 3400 2    50   Output ~ 0
@@ -1253,4 +1250,7 @@ Wire Wire Line
 	2750 3900 4650 3900
 Wire Wire Line
 	4650 3900 4650 3500
+Wire Wire Line
+	3200 3800 4200 3800
+Connection ~ 3200 3800
 $EndSCHEMATC
