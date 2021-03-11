@@ -215,4 +215,66 @@ Wire Wire Line
 Connection ~ 2500 1200
 Wire Wire Line
 	2500 1200 2600 1200
+$Comp
+L 74xx:74LS74 U2
+U 1 1 62D7E32E
+P 2900 3400
+F 0 "U2" H 2750 3650 50  0000 C CNN
+F 1 "74LS74" H 3050 3650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2900 3400 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 2900 3400 50  0001 C CNN
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 3300 0    50   Input ~ 0
+~CPU_MEM_SEL
+$Comp
+L power:VCC #PWR?
+U 1 1 62D8D7F8
+P 2700 3750
+F 0 "#PWR?" H 2700 3600 50  0001 C CNN
+F 1 "VCC" V 2715 3877 50  0000 L CNN
+F 2 "" H 2700 3750 50  0001 C CNN
+F 3 "" H 2700 3750 50  0001 C CNN
+	1    2700 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3750 2900 3750
+Wire Wire Line
+	2900 3750 2900 3700
+Wire Wire Line
+	2600 3400 2100 3400
+Text GLabel 2100 3400 0    50   Input ~ 0
+Q1
+Wire Wire Line
+	2100 3300 2600 3300
+Wire Wire Line
+	4300 1000 5350 1000
+Text GLabel 5350 1000 2    50   Output ~ 0
+~EN_CPU_CAS_ADDR
+Text GLabel 5350 1150 2    50   Output ~ 0
+~EN_CPU_RAS_ADDR
+Wire Wire Line
+	5350 1150 4450 1150
+Wire Wire Line
+	4450 1150 4450 1400
+Wire Wire Line
+	4450 1400 4300 1400
+Text GLabel 5350 1300 2    50   Output ~ 0
+~EN_CRT_CAS_ADDR
+Text GLabel 5350 1450 2    50   Output ~ 0
+~EN_CRT_RAS_ADDR
+Wire Wire Line
+	5350 1300 4550 1300
+Wire Wire Line
+	4550 1300 4550 2350
+Wire Wire Line
+	4550 2350 4300 2350
+Wire Wire Line
+	5350 1450 4650 1450
+Wire Wire Line
+	4650 1450 4650 2800
+Wire Wire Line
+	4650 2800 4300 2800
 $EndSCHEMATC
