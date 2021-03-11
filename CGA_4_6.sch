@@ -61,7 +61,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS112" H 2900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 2450 2600 2450
+	2100 2450 2200 2450
 Wire Wire Line
 	1500 2450 1350 2450
 Text GLabel 850  2450 0    50   Input ~ 0
@@ -277,4 +277,13 @@ Wire Wire Line
 	4650 1450 4650 2800
 Wire Wire Line
 	4650 2800 4300 2800
+Wire Wire Line
+	2200 2450 2200 2850
+Wire Wire Line
+	2200 2850 2700 2850
+Connection ~ 2200 2450
+Wire Wire Line
+	2200 2450 2600 2450
+Text GLabel 2700 2850 2    50   Output ~ 0
+~RAS
 $EndSCHEMATC
