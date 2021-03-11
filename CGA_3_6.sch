@@ -189,7 +189,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1400 1750 1400
 Wire Wire Line
-	5150 2150 5150 3000
+	5150 2150 5150 2650
 $Comp
 L power:VCC #PWR?
 U 1 1 61D8F972
@@ -1253,4 +1253,11 @@ Wire Wire Line
 Wire Wire Line
 	3200 3800 4200 3800
 Connection ~ 3200 3800
+Text GLabel 5500 2650 2    50   Output ~ 0
+~Q2'
+Wire Wire Line
+	5500 2650 5150 2650
+Connection ~ 5150 2650
+Wire Wire Line
+	5150 2650 5150 3000
 $EndSCHEMATC
