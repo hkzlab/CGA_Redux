@@ -672,4 +672,86 @@ Wire Wire Line
 	8550 3750 9400 3750
 Text GLabel 9400 3750 2    50   Output ~ 0
 SL'
+$Comp
+L 74xx:74LS02 U65
+U 4 1 6205C9B5
+P 3850 5800
+F 0 "U65" H 3850 6125 50  0000 C CNN
+F 1 "74LS02" H 3850 6034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3850 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3850 5800 50  0001 C CNN
+	4    3850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5900 3400 5900
+Wire Wire Line
+	3400 5900 3400 5700
+Wire Wire Line
+	3400 5700 3550 5700
+Wire Wire Line
+	3400 5700 1300 5700
+Connection ~ 3400 5700
+Text GLabel 1300 5700 0    50   Input ~ 0
+~RESET'
+$Comp
+L 74xx:74LS393 U12
+U 1 1 62072115
+P 5450 5600
+F 0 "U12" H 5450 5967 50  0000 C CNN
+F 1 "74LS393" H 5450 5876 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 5600 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 5450 5600 50  0001 C CNN
+	1    5450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS393 U12
+U 2 1 62073AB5
+P 5450 6400
+F 0 "U12" H 5450 6767 50  0000 C CNN
+F 1 "74LS393" H 5450 6676 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 6400 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 5450 6400 50  0001 C CNN
+	2    5450 6400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 5700
+NoConn ~ 5950 5600
+NoConn ~ 5950 5500
+NoConn ~ 5950 6400
+NoConn ~ 5950 6500
+NoConn ~ 5950 6600
+Wire Wire Line
+	4600 6600 4950 6600
+Wire Wire Line
+	4950 5800 4600 5800
+Wire Wire Line
+	4600 5800 4600 6600
+Wire Wire Line
+	5950 5800 6200 5800
+Wire Wire Line
+	6200 5800 6200 5950
+Wire Wire Line
+	6200 5950 4800 5950
+Wire Wire Line
+	4800 5950 4800 6300
+Wire Wire Line
+	4800 6300 4950 6300
+Wire Wire Line
+	4150 5800 4600 5800
+Connection ~ 4600 5800
+Text GLabel 4650 5500 0    50   Input ~ 0
+V_SYNC_DLY
+Wire Wire Line
+	4650 5500 4950 5500
+Wire Wire Line
+	6200 5800 7050 5800
+Connection ~ 6200 5800
+Text GLabel 7050 5800 2    50   Output ~ 0
+~CURSOR_BLINK
+Wire Wire Line
+	5950 6300 7050 6300
+Text GLabel 7050 6300 2    50   Output ~ 0
+~BLINK
 $EndSCHEMATC
