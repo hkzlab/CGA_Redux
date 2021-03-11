@@ -952,7 +952,46 @@ Text GLabel 1100 9950 0    50   Input ~ 0
 Text GLabel 1100 10150 0    50   Input ~ 0
 ~IOW
 Text GLabel 4400 9350 2    50   Output ~ 0
-CPU_MEM_SEL
+~CPU_MEM_SEL
 Wire Wire Line
 	4000 9350 4400 9350
+$Comp
+L 74xx:74LS32 U30
+U 1 1 62367D86
+P 5250 7450
+F 0 "U30" H 5250 7650 50  0000 C CNN
+F 1 "74LS32" H 5250 7750 50  0000 C CNN
+F 2 "" H 5250 7450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5250 7450 50  0001 C CNN
+	1    5250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 7350 4650 7350
+Text GLabel 4650 7350 0    50   Input ~ 0
+A3
+Wire Wire Line
+	4000 7550 4750 7550
+Wire Wire Line
+	5550 7450 6350 7450
+Text GLabel 6350 7450 2    50   Output ~ 0
+~6845_CS
+$Comp
+L 74xx:74LS02 U65
+U 1 1 623F400E
+P 5250 8050
+F 0 "U65" H 5250 8375 50  0000 C CNN
+F 1 "74LS02" H 5250 8284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5250 8050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5250 8050 50  0001 C CNN
+	1    5250 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 7550 4750 7950
+Wire Wire Line
+	4750 7950 4950 7950
+Connection ~ 4750 7550
+Wire Wire Line
+	4750 7550 4950 7550
 $EndSCHEMATC
