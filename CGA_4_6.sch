@@ -248,7 +248,7 @@ Wire Wire Line
 Text GLabel 1500 3850 0    50   Input ~ 0
 Q1
 Wire Wire Line
-	1500 3750 2000 3750
+	1500 3750 1700 3750
 Wire Wire Line
 	4300 1000 5350 1000
 Text GLabel 5350 1000 2    50   Output ~ 0
@@ -366,4 +366,78 @@ Text GLabel 6100 3900 2    50   Output ~ 0
 ~WE
 Wire Wire Line
 	5800 3900 6100 3900
+$Comp
+L 74xx:74LS74 U2
+U 2 1 62E7CF2E
+P 3350 5350
+F 0 "U2" H 3200 5600 50  0000 C CNN
+F 1 "74LS74" H 3500 5600 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3350 5350 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 3350 5350 50  0001 C CNN
+	2    3350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3750 2900 3750
+Wire Wire Line
+	2900 3750 2900 5250
+Wire Wire Line
+	2900 5250 3050 5250
+Wire Wire Line
+	3650 5250 3900 5250
+Wire Wire Line
+	3900 5250 3900 4750
+Wire Wire Line
+	3900 4750 3200 4750
+Wire Wire Line
+	2750 4750 2750 5750
+Wire Wire Line
+	2750 5750 3350 5750
+Wire Wire Line
+	3350 5750 3350 5650
+Wire Wire Line
+	2300 3550 2300 3300
+Wire Wire Line
+	2300 3300 3200 3300
+Wire Wire Line
+	3200 3300 3200 4750
+Connection ~ 3200 4750
+Wire Wire Line
+	3200 4750 2750 4750
+$Comp
+L 74xx:74LS04 U?
+U 3 1 62E96DA9
+P 2150 4900
+AR Path="/60463C57/62E96DA9" Ref="U?"  Part="2" 
+AR Path="/60463CC5/62E96DA9" Ref="U29"  Part="3" 
+F 0 "U29" H 2100 4600 50  0000 C CNN
+F 1 "74S04" H 2100 4700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2150 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2150 4900 50  0001 C CNN
+	3    2150 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4900 3350 4900
+Wire Wire Line
+	3350 4900 3350 5050
+Wire Wire Line
+	1700 3750 1700 4900
+Wire Wire Line
+	1700 4900 1850 4900
+Connection ~ 1700 3750
+Wire Wire Line
+	1700 3750 2000 3750
+Text GLabel 2600 5350 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	2600 5350 3050 5350
+Wire Wire Line
+	3650 5450 4000 5450
+Wire Wire Line
+	4000 5450 4000 4850
+Wire Wire Line
+	4000 4850 5450 4850
+Text GLabel 5450 4850 2    50   Output ~ 0
+XACK
 $EndSCHEMATC
