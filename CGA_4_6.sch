@@ -569,43 +569,89 @@ Wire Wire Line
 $Comp
 L 74xx:74LS51 U27
 U 2 1 62FE2980
-P 2050 6650
-F 0 "U27" H 2050 7175 50  0000 C CNN
-F 1 "74LS51" H 2050 7084 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2050 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 2050 6650 50  0001 C CNN
-	2    2050 6650
+P 2100 6200
+F 0 "U27" H 2100 6725 50  0000 C CNN
+F 1 "74LS51" H 2100 6634 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 2100 6200 50  0001 C CNN
+	2    2100 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS51 U27
 U 1 1 62FEE44E
-P 2050 7900
-F 0 "U27" H 2050 8425 50  0000 C CNN
-F 1 "74LS51" H 2050 8334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2050 7900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 2050 7900 50  0001 C CNN
-	1    2050 7900
+P 2100 7250
+F 0 "U27" H 2100 6760 50  0000 C CNN
+F 1 "74LS51" H 2100 6851 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 2100 7250 50  0001 C CNN
+	1    2100 7250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1600 5900 1200 5900
+Text GLabel 1100 5900 0    50   Input ~ 0
+HRES
+Wire Wire Line
+	1600 6100 1100 6100
+Text GLabel 1100 6100 0    50   Input ~ 0
+HCLK
+Wire Wire Line
+	1600 6300 1450 6300
+Text GLabel 1100 6300 0    50   Input ~ 0
+~HRES
+Wire Wire Line
+	1600 6500 1100 6500
+Text GLabel 1100 6500 0    50   Input ~ 0
+LCLK
+Text GLabel 2800 6200 2    50   Output ~ 0
+~CCLK
+Wire Wire Line
+	2800 6200 2600 6200
+Wire Wire Line
+	1600 7150 1200 7150
+Wire Wire Line
+	1200 7150 1200 5900
+Connection ~ 1200 5900
+Wire Wire Line
+	1200 5900 1100 5900
+Text GLabel 1100 6950 0    50   Input ~ 0
+~14_MHZ
+Wire Wire Line
+	1100 6950 1600 6950
+Wire Wire Line
+	1600 7050 1350 7050
+Wire Wire Line
+	1350 7050 1350 7300
+Wire Wire Line
+	1350 7350 1600 7350
+$Comp
+L power:VCC #PWR?
+U 1 1 630E9E72
+P 1100 7200
+F 0 "#PWR?" H 1100 7050 50  0001 C CNN
+F 1 "VCC" H 950 7250 50  0000 C CNN
+F 2 "" H 1100 7200 50  0001 C CNN
+F 3 "" H 1100 7200 50  0001 C CNN
+	1    1100 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 6350 1050 6350
-Text GLabel 1050 6350 0    50   Input ~ 0
-HRES
+	1100 7200 1100 7300
 Wire Wire Line
-	1550 6550 1050 6550
-Text GLabel 1050 6550 0    50   Input ~ 0
-HCLK
+	1100 7300 1350 7300
+Connection ~ 1350 7300
 Wire Wire Line
-	1550 6750 1050 6750
-Text GLabel 1050 6750 0    50   Input ~ 0
-~HRES
+	1350 7300 1350 7350
 Wire Wire Line
-	1550 6950 1050 6950
-Text GLabel 1050 6950 0    50   Input ~ 0
-LCLK
-Text GLabel 2750 6650 2    50   Output ~ 0
-~CCLK
+	1600 7450 1450 7450
 Wire Wire Line
-	2750 6650 2550 6650
+	1450 7450 1450 6300
+Connection ~ 1450 6300
+Wire Wire Line
+	1450 6300 1100 6300
+Text GLabel 1100 7550 0    50   Input ~ 0
+~7_MHZ
+Wire Wire Line
+	1600 7550 1100 7550
 $EndSCHEMATC
