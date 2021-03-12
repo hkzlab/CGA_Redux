@@ -466,4 +466,104 @@ Wire Wire Line
 	4800 5500 4800 5600
 Wire Wire Line
 	4800 5600 4250 5600
+$Comp
+L 74xx:74LS32 U?
+U 2 1 62ED8784
+P 5800 3000
+AR Path="/60463C57/62ED8784" Ref="U?"  Part="3" 
+AR Path="/60463CC5/62ED8784" Ref="U30"  Part="2" 
+F 0 "U30" H 5800 2683 50  0000 C CNN
+F 1 "74LS32" H 5800 2774 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5800 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5800 3000 50  0001 C CNN
+	2    5800 3000
+	1    0    0    1   
+$EndComp
+Text GLabel 5200 2900 0    50   Input ~ 0
+HRES
+Wire Wire Line
+	5200 2900 5500 2900
+Text GLabel 5200 3100 0    50   Input ~ 0
+~CCLK
+Wire Wire Line
+	5500 3100 5400 3100
+$Comp
+L 74xx:74LS00 U25
+U 3 1 62EFF4A5
+P 6650 3100
+F 0 "U25" H 6650 2800 50  0000 C CNN
+F 1 "74LS00" H 6650 2900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6650 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6650 3100 50  0001 C CNN
+	3    6650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3000 6100 3000
+Wire Wire Line
+	6350 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 3300
+Wire Wire Line
+	6100 3300 5200 3300
+Text GLabel 5200 3300 0    50   Input ~ 0
+CAS_CC
+Wire Wire Line
+	6950 3100 7350 3100
+Text GLabel 7350 3100 2    50   Output ~ 0
+CC_LATCH
+$Comp
+L 74xx:74LS51 U47
+U 1 1 62F37BE3
+P 6300 2100
+F 0 "U47" H 6300 2625 50  0000 C CNN
+F 1 "74LS51" H 6300 2534 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6300 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6300 2100 50  0001 C CNN
+	1    6300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2100 7200 2100
+Text GLabel 7200 2100 2    50   Output ~ 0
+AT_LATCH
+$Comp
+L power:VCC #PWR?
+U 1 1 62F71B77
+P 5650 1750
+F 0 "#PWR?" H 5650 1600 50  0001 C CNN
+F 1 "VCC" H 5750 1800 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 1900 0    50   Input ~ 0
+~Q2'
+Wire Wire Line
+	5500 1900 5800 1900
+Wire Wire Line
+	5800 2300 5650 2300
+Wire Wire Line
+	5650 2300 5650 2000
+Wire Wire Line
+	5650 2000 5800 2000
+Wire Wire Line
+	5650 2000 5650 1750
+Connection ~ 5650 2000
+Wire Wire Line
+	5800 2400 5400 2400
+Wire Wire Line
+	5400 2400 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	5400 3100 5200 3100
+Text GLabel 5500 1800 0    50   Input ~ 0
+GRPH
+Wire Wire Line
+	5500 1800 5800 1800
+Text GLabel 5500 2200 0    50   Input ~ 0
+~GRPH
+Wire Wire Line
+	5500 2200 5800 2200
 $EndSCHEMATC
