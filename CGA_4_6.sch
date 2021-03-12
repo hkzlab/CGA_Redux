@@ -654,4 +654,28 @@ Text GLabel 1100 7550 0    50   Input ~ 0
 ~7_MHZ
 Wire Wire Line
 	1600 7550 1100 7550
+$Comp
+L 74xx:74LS04 U?
+U 5 1 63106999
+P 3300 7250
+AR Path="/60463C57/63106999" Ref="U?"  Part="2" 
+AR Path="/60463CC5/63106999" Ref="U26"  Part="5" 
+F 0 "U26" H 3250 6950 50  0000 C CNN
+F 1 "74S04" H 3250 7050 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3300 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3300 7250 50  0001 C CNN
+	5    3300 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 7250 2700 7250
+Wire Wire Line
+	2700 7250 2700 7700
+Wire Wire Line
+	2700 7700 3150 7700
+Connection ~ 2700 7250
+Wire Wire Line
+	2700 7250 3000 7250
+Text GLabel 3150 7700 2    50   Output ~ 0
+DOT_CLOCK
 $EndSCHEMATC
