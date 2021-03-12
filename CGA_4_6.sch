@@ -435,9 +435,35 @@ Wire Wire Line
 Wire Wire Line
 	3650 5450 4000 5450
 Wire Wire Line
-	4000 5450 4000 4850
+	4000 5450 4000 5250
 Wire Wire Line
 	4000 4850 5450 4850
 Text GLabel 5450 4850 2    50   Output ~ 0
 XACK
+$Comp
+L 74xx:74LS125 U62
+U 2 1 62EB767B
+P 4800 5250
+F 0 "U62" H 4800 5567 50  0000 C CNN
+F 1 "74LS125" H 4800 5476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4800 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4800 5250 50  0001 C CNN
+	2    4800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5250 4000 5250
+Connection ~ 4000 5250
+Wire Wire Line
+	4000 5250 4000 4850
+Text GLabel 5450 5250 2    50   Output ~ 0
+IO_READY
+Wire Wire Line
+	5450 5250 5100 5250
+Text GLabel 4250 5600 0    50   Input ~ 0
+~CPU_MEM_SEL
+Wire Wire Line
+	4800 5500 4800 5600
+Wire Wire Line
+	4800 5600 4250 5600
 $EndSCHEMATC
