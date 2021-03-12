@@ -678,4 +678,52 @@ Wire Wire Line
 	2700 7250 3000 7250
 Text GLabel 3150 7700 2    50   Output ~ 0
 DOT_CLOCK
+$Comp
+L 74xx:74LS00 U25
+U 4 1 6312E8E0
+P 4350 6900
+F 0 "U25" H 4350 6600 50  0000 C CNN
+F 1 "74LS00" H 4350 6700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4350 6900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4350 6900 50  0001 C CNN
+	4    4350 6900
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS00 U25
+U 1 1 631459CB
+P 4350 7550
+F 0 "U25" H 4350 7250 50  0000 C CNN
+F 1 "74LS00" H 4350 7350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4350 7550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4350 7550 50  0001 C CNN
+	1    4350 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 7250 3800 7250
+Wire Wire Line
+	3800 7250 3800 6800
+Wire Wire Line
+	3800 6800 4050 6800
+Wire Wire Line
+	4650 6900 5000 6900
+Wire Wire Line
+	5000 6900 5000 7200
+Wire Wire Line
+	5000 7200 3900 7200
+Wire Wire Line
+	3900 7200 3900 7450
+Wire Wire Line
+	3900 7450 4050 7450
+Wire Wire Line
+	4650 7550 4900 7550
+Wire Wire Line
+	4900 7550 4900 7100
+Wire Wire Line
+	4900 7100 3900 7100
+Wire Wire Line
+	3900 7100 3900 7000
+Wire Wire Line
+	3900 7000 4050 7000
 $EndSCHEMATC
