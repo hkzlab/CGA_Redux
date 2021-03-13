@@ -870,20 +870,127 @@ Wire Wire Line
 $Comp
 L 74xx:74LS32 U23
 U 1 1 6330493E
-P 1850 8600
-F 0 "U23" H 1850 8925 50  0000 C CNN
-F 1 "74LS32" H 1850 8834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1850 8600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1850 8600 50  0001 C CNN
-	1    1850 8600
+P 2300 8850
+F 0 "U23" H 2300 9175 50  0000 C CNN
+F 1 "74LS32" H 2300 9084 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2300 8850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2300 8850 50  0001 C CNN
+	1    2300 8850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 8500 0    50   Input ~ 0
+Text GLabel 1600 8750 0    50   Input ~ 0
 C1
 Wire Wire Line
-	1150 8500 1550 8500
-Text GLabel 1150 8700 0    50   Input ~ 0
+	1600 8750 2000 8750
+Text GLabel 1600 8950 0    50   Input ~ 0
 C0
 Wire Wire Line
-	1150 8700 1550 8700
+	1600 8950 2000 8950
+$Comp
+L 74xx:74LS51 U22
+U 1 1 6337DF08
+P 3550 8550
+F 0 "U22" H 3550 8060 50  0000 C CNN
+F 1 "74LS51" H 3550 8151 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3550 8550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 3550 8550 50  0001 C CNN
+	1    3550 8550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 8850 3050 8850
+$Comp
+L power:VCC #PWR?
+U 1 1 633C357D
+P 2800 8100
+F 0 "#PWR?" H 2800 7950 50  0001 C CNN
+F 1 "VCC" H 2815 8273 50  0000 C CNN
+F 2 "" H 2800 8100 50  0001 C CNN
+F 3 "" H 2800 8100 50  0001 C CNN
+	1    2800 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 8450 2800 8450
+Wire Wire Line
+	2800 8450 2800 8100
+Wire Wire Line
+	3050 8350 1600 8350
+Text GLabel 1600 8350 0    50   Input ~ 0
+~GRPH
+Wire Wire Line
+	3050 8250 1600 8250
+Text GLabel 1600 8250 0    50   Input ~ 0
+ALPHA_DOTS
+$Comp
+L 74xx:74LS174 U40
+U 1 1 63419162
+P 2250 10000
+F 0 "U40" H 2000 10550 50  0000 C CNN
+F 1 "74LS174" H 2500 10550 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2250 10000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 2250 10000 50  0001 C CNN
+	1    2250 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6341CA1D
+P 2250 9300
+F 0 "#PWR?" H 2250 9150 50  0001 C CNN
+F 1 "VCC" H 2265 9473 50  0000 C CNN
+F 2 "" H 2250 9300 50  0001 C CNN
+F 3 "" H 2250 9300 50  0001 C CNN
+	1    2250 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6341DF93
+P 2250 10800
+F 0 "#PWR?" H 2250 10550 50  0001 C CNN
+F 1 "GND" H 2255 10627 50  0000 C CNN
+F 2 "" H 2250 10800 50  0001 C CNN
+F 3 "" H 2250 10800 50  0001 C CNN
+	1    2250 10800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 10300 0    50   Input ~ 0
+~SEL_1
+Wire Wire Line
+	1050 10300 1750 10300
+Text GLabel 1050 10500 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	1050 10500 1750 10500
+Wire Wire Line
+	1750 9600 1050 9600
+Wire Wire Line
+	1750 9700 1050 9700
+Wire Wire Line
+	1750 9800 1050 9800
+Wire Wire Line
+	1750 9900 1050 9900
+Wire Wire Line
+	1750 10000 1050 10000
+Wire Wire Line
+	1750 10100 1050 10100
+Text GLabel 1050 9600 0    50   Input ~ 0
+D0
+Text GLabel 1050 9700 0    50   Input ~ 0
+D1
+Text GLabel 1050 9800 0    50   Input ~ 0
+D2
+Text GLabel 1050 9900 0    50   Input ~ 0
+D3
+Text GLabel 1050 10000 0    50   Input ~ 0
+D4
+Text GLabel 1050 10100 0    50   Input ~ 0
+D5
+Wire Wire Line
+	3050 8650 2900 8650
+Wire Wire Line
+	2900 8650 2900 9700
+Wire Wire Line
+	2900 9700 2750 9700
 $EndSCHEMATC
