@@ -798,4 +798,73 @@ Wire Wire Line
 Connection ~ 2700 7650
 Wire Wire Line
 	2700 7650 2700 7850
+$Comp
+L 74xx:74LS00 U?
+U 4 1 63236E76
+P 8100 6600
+AR Path="/60463C57/63236E76" Ref="U?"  Part="4" 
+AR Path="/60463CC5/63236E76" Ref="U15"  Part="4" 
+F 0 "U15" H 8100 6283 50  0000 C CNN
+F 1 "74LS00" H 8100 6374 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8100 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8100 6600 50  0001 C CNN
+	4    8100 6600
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 2 1 6325627C
+P 8100 6000
+AR Path="/60463C57/6325627C" Ref="U?"  Part="4" 
+AR Path="/60463CC5/6325627C" Ref="U65"  Part="2" 
+F 0 "U65" H 8100 6325 50  0000 C CNN
+F 1 "74LS02" H 8100 6234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8100 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8100 6000 50  0001 C CNN
+	2    8100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U?
+U 1 1 63279063
+P 9050 6700
+AR Path="/60463BAE/63279063" Ref="U?"  Part="3" 
+AR Path="/60463CC5/63279063" Ref="U28"  Part="1" 
+F 0 "U28" H 9050 7025 50  0000 C CNN
+F 1 "74LS10" H 9050 6934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9050 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 9050 6700 50  0001 C CNN
+	1    9050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 6600 8750 6600
+Wire Wire Line
+	8400 6000 8600 6000
+Wire Wire Line
+	8600 6000 8600 6700
+Wire Wire Line
+	8600 6700 8750 6700
+Wire Wire Line
+	8400 7250 8600 7250
+Wire Wire Line
+	8600 7250 8600 6800
+Wire Wire Line
+	8600 6800 8750 6800
+Text GLabel 9650 6700 2    50   Output ~ 0
+STR
+Wire Wire Line
+	9350 6700 9650 6700
+Text GLabel 7300 5900 0    50   Input ~ 0
+VSYNC_DLY
+Wire Wire Line
+	7300 5900 7800 5900
+Text GLabel 7300 6100 0    50   Input ~ 0
+HSYNC_DLY
+Wire Wire Line
+	7300 6100 7800 6100
+Text GLabel 7300 6500 0    50   Input ~ 0
+~DISPEN_DLY
+Wire Wire Line
+	7300 6500 7800 6500
 $EndSCHEMATC
