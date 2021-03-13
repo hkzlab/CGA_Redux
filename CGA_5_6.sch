@@ -279,9 +279,124 @@ Wire Wire Line
 Text GLabel 1300 4350 0    50   Input ~ 0
 LCLK
 Wire Wire Line
-	2200 4350 1300 4350
+	2200 4350 1650 4350
 Text GLabel 1300 3850 0    50   Input ~ 0
 HSYNC_DLY
 Wire Wire Line
-	2200 3850 1300 3850
+	2200 3850 2000 3850
+$Comp
+L 74xx:74LS74 U43
+U 1 1 63FCF789
+P 5200 3250
+F 0 "U43" H 5050 3500 50  0000 C CNN
+F 1 "74S74" H 5400 3500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5200 3250 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 4250
+NoConn ~ 3000 4150
+NoConn ~ 3000 3950
+NoConn ~ 3000 3750
+Wire Wire Line
+	2000 3850 2000 3250
+Wire Wire Line
+	2000 3250 4000 3250
+Wire Wire Line
+	4000 3250 4000 3650
+Wire Wire Line
+	4000 3650 5200 3650
+Wire Wire Line
+	5200 3650 5200 3550
+Connection ~ 2000 3850
+Wire Wire Line
+	2000 3850 1300 3850
+Wire Wire Line
+	3000 4450 4550 4450
+Wire Wire Line
+	4550 4450 4550 4050
+Wire Wire Line
+	4550 3150 4900 3150
+Wire Wire Line
+	1650 4350 1650 3150
+Wire Wire Line
+	1650 3150 4400 3150
+Wire Wire Line
+	4400 3150 4400 3250
+Wire Wire Line
+	4400 3250 4900 3250
+Connection ~ 1650 4350
+Wire Wire Line
+	1650 4350 1300 4350
+Text GLabel 4550 2850 0    50   Input ~ 0
+~BW_2
+Wire Wire Line
+	4550 2850 5200 2850
+Wire Wire Line
+	5200 2850 5200 2950
+NoConn ~ 5500 3350
+$Comp
+L 74xx:74LS00 U?
+U 2 1 63FF0248
+P 5250 4050
+AR Path="/60463C57/63FF0248" Ref="U?"  Part="4" 
+AR Path="/60463CF3/63FF0248" Ref="U15"  Part="2" 
+F 0 "U15" H 5250 4375 50  0000 C CNN
+F 1 "74LS00" H 5250 4284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5250 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5250 4050 50  0001 C CNN
+	2    5250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 4050
+Wire Wire Line
+	4850 4150 4950 4150
+Wire Wire Line
+	4850 4050 4550 4050
+Connection ~ 4850 4050
+Wire Wire Line
+	4850 4050 4850 4150
+Connection ~ 4550 4050
+Wire Wire Line
+	4550 4050 4550 3150
+$Comp
+L 74xx:74LS86 U?
+U 3 1 640026CD
+P 6050 4150
+AR Path="/60463C10/640026CD" Ref="U?"  Part="4" 
+AR Path="/60463C57/640026CD" Ref="U?"  Part="1" 
+AR Path="/60463CF3/640026CD" Ref="U42"  Part="3" 
+F 0 "U42" H 6050 4475 50  0000 C CNN
+F 1 "74LS86" H 6050 4384 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6050 4150 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 6050 4150 50  0001 C CNN
+	3    6050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4050 5750 4050
+Wire Wire Line
+	3000 4050 3900 4050
+Wire Wire Line
+	3900 4050 3900 4550
+Wire Wire Line
+	3900 4550 5500 4550
+Wire Wire Line
+	5500 4550 5500 4250
+Wire Wire Line
+	5500 4250 5750 4250
+Wire Wire Line
+	6350 4150 6400 4150
+Wire Wire Line
+	6400 4150 6400 4950
+Wire Wire Line
+	6400 4950 1750 4950
+Wire Wire Line
+	1750 4950 1750 4050
+Wire Wire Line
+	1750 4050 2200 4050
 $EndSCHEMATC
