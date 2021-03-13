@@ -867,4 +867,23 @@ Text GLabel 7300 6500 0    50   Input ~ 0
 ~DISPEN_DLY
 Wire Wire Line
 	7300 6500 7800 6500
+$Comp
+L 74xx:74LS32 U23
+U 1 1 6330493E
+P 1850 8600
+F 0 "U23" H 1850 8925 50  0000 C CNN
+F 1 "74LS32" H 1850 8834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1850 8600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1850 8600 50  0001 C CNN
+	1    1850 8600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 8500 0    50   Input ~ 0
+C1
+Wire Wire Line
+	1150 8500 1550 8500
+Text GLabel 1150 8700 0    50   Input ~ 0
+C0
+Wire Wire Line
+	1150 8700 1550 8700
 $EndSCHEMATC
