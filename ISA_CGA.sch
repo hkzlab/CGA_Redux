@@ -143,14 +143,14 @@ $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 5 1 61D13A76
-P 4150 5150
+P 3550 5150
 AR Path="/60463C10/61D13A76" Ref="U?"  Part="3" 
 AR Path="/61D13A76" Ref="U31"  Part="5" 
-F 0 "U31" H 4000 5500 50  0000 C CNN
-F 1 "74S08" H 4300 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4150 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4150 5150 50  0001 C CNN
-	5    4150 5150
+F 0 "U31" H 3400 5500 50  0000 C CNN
+F 1 "74S08" H 3700 5500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3550 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3550 5150 50  0001 C CNN
+	5    3550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -169,15 +169,15 @@ $EndComp
 $Comp
 L 74xx:74LS86 U?
 U 5 1 629C2DFD
-P 5350 5150
+P 4750 5150
 AR Path="/60463C10/629C2DFD" Ref="U?"  Part="4" 
 AR Path="/60463C57/629C2DFD" Ref="U?"  Part="1" 
 AR Path="/629C2DFD" Ref="U42"  Part="5" 
-F 0 "U42" H 5500 5500 50  0000 C CNN
-F 1 "74LS86" H 5200 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5350 5150 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 5350 5150 50  0001 C CNN
-	5    5350 5150
+F 0 "U42" H 4900 5500 50  0000 C CNN
+F 1 "74LS86" H 4600 5500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4750 5150 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 4750 5150 50  0001 C CNN
+	5    4750 5150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -197,14 +197,14 @@ $EndComp
 $Comp
 L 74xx:74LS32 U?
 U 5 1 62AC6F3C
-P 3550 5150
+P 2950 5150
 AR Path="/60463C57/62AC6F3C" Ref="U?"  Part="3" 
 AR Path="/62AC6F3C" Ref="U30"  Part="5" 
-F 0 "U30" H 3400 5500 50  0000 C CNN
-F 1 "74LS32" H 3700 5500 50  0000 C CNN
-F 2 "" H 3550 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3550 5150 50  0001 C CNN
-	5    3550 5150
+F 0 "U30" H 2800 5500 50  0000 C CNN
+F 1 "74LS32" H 3100 5500 50  0000 C CNN
+F 2 "" H 2950 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2950 5150 50  0001 C CNN
+	5    2950 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -288,14 +288,14 @@ $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 5 1 62CA5B30
-P 4750 5150
+P 4150 5150
 AR Path="/60463C57/62CA5B30" Ref="U?"  Part="4" 
 AR Path="/62CA5B30" Ref="U41"  Part="5" 
-F 0 "U41" H 4600 5500 50  0000 C CNN
-F 1 "74LS08" H 4900 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4750 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4750 5150 50  0001 C CNN
-	5    4750 5150
+F 0 "U41" H 4000 5500 50  0000 C CNN
+F 1 "74LS08" H 4300 5500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4150 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4150 5150 50  0001 C CNN
+	5    4150 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -327,15 +327,15 @@ $EndComp
 $Comp
 L 74xx:74LS04 U?
 U 7 1 63CE58E6
-P 2950 5150
+P 2350 5150
 AR Path="/60463C57/63CE58E6" Ref="U?"  Part="6" 
 AR Path="/60463CC5/63CE58E6" Ref="U?"  Part="4" 
 AR Path="/63CE58E6" Ref="U29"  Part="7" 
-F 0 "U29" H 2800 5500 50  0000 C CNN
-F 1 "74S04" H 3100 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2950 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2950 5150 50  0001 C CNN
-	7    2950 5150
+F 0 "U29" H 2200 5500 50  0000 C CNN
+F 1 "74S04" H 2500 5500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2350 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2350 5150 50  0001 C CNN
+	7    2350 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -428,6 +428,19 @@ F 1 "74LS51" H 6600 5500 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6550 5150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6550 5150 50  0001 C CNN
 	3    6550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 U?
+U 3 1 64BD6305
+P 5350 5150
+AR Path="/60463CF3/64BD6305" Ref="U?"  Part="1" 
+AR Path="/64BD6305" Ref="U44"  Part="3" 
+F 0 "U44" H 5200 5500 50  0000 C CNN
+F 1 "74S74" H 5500 5500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5350 5150 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5350 5150 50  0001 C CNN
+	3    5350 5150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
