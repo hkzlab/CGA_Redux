@@ -13,4 +13,128 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:Bus_ISA_8bit P5
+U 1 1 64C8D989
+P 6100 3100
+F 0 "P5" H 6100 4867 50  0000 C CNN
+F 1 "Bus_ISA_8bit" H 6100 4776 50  0000 C CNN
+F 2 "" H 6100 3100 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U66
+U 1 1 64C91480
+P 3500 2150
+F 0 "U66" H 3250 2800 50  0000 C CNN
+F 1 "74LS245" H 3700 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 3500 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 64C922A0
+P 3500 1350
+F 0 "#PWR?" H 3500 1200 50  0001 C CNN
+F 1 "VCC" H 3515 1523 50  0000 C CNN
+F 2 "" H 3500 1350 50  0001 C CNN
+F 3 "" H 3500 1350 50  0001 C CNN
+	1    3500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64C92929
+P 3500 2950
+F 0 "#PWR?" H 3500 2700 50  0001 C CNN
+F 1 "GND" H 3505 2777 50  0000 C CNN
+F 2 "" H 3500 2950 50  0001 C CNN
+F 3 "" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 2 64C9AB33
+P 2700 4150
+AR Path="/60463C57/64C9AB33" Ref="U?"  Part="1" 
+AR Path="/60463D9E/64C9AB33" Ref="U41"  Part="2" 
+F 0 "U41" H 2950 4050 50  0000 C CNN
+F 1 "74LS08" H 3000 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2700 4150 50  0001 C CNN
+	2    2700 4150
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 3 1 64CA00B2
+P 1450 4950
+AR Path="/60463BAE/64CA00B2" Ref="U?"  Part="2" 
+AR Path="/60463D9E/64CA00B2" Ref="U14"  Part="3" 
+F 0 "U14" H 1450 4633 50  0000 C CNN
+F 1 "74LS32" H 1450 4724 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1450 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1450 4950 50  0001 C CNN
+	3    1450 4950
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 64CA6A80
+P 8600 1650
+AR Path="/60463BAE/64CA6A80" Ref="U?"  Part="4" 
+AR Path="/60463D9E/64CA6A80" Ref="U13"  Part="2" 
+F 0 "U13" H 8600 1333 50  0000 C CNN
+F 1 "74LS08" H 8600 1424 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8600 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 8600 1650 50  0001 C CNN
+	2    8600 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 4 1 64CB09F8
+P 8450 2800
+AR Path="/60463C10/64CB09F8" Ref="U?"  Part="4" 
+AR Path="/60463C57/64CB09F8" Ref="U?"  Part="1" 
+AR Path="/60463D9E/64CB09F8" Ref="U42"  Part="4" 
+F 0 "U42" H 8450 3125 50  0000 C CNN
+F 1 "74LS86" H 8450 3034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8450 2800 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 8450 2800 50  0001 C CNN
+	4    8450 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 4 1 64CB4376
+P 8700 4000
+AR Path="/60463C57/64CB4376" Ref="U?"  Part="2" 
+AR Path="/60463CC5/64CB4376" Ref="U?"  Part="3" 
+AR Path="/60463D9E/64CB4376" Ref="U20"  Part="4" 
+F 0 "U20" H 8650 3700 50  0000 C CNN
+F 1 "74LS04" H 8650 3800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8700 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8700 4000 50  0001 C CNN
+	4    8700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 6 1 64CBA70D
+P 8650 4800
+AR Path="/60463C57/64CBA70D" Ref="U?"  Part="2" 
+AR Path="/60463D9E/64CBA70D" Ref="U26"  Part="6" 
+F 0 "U26" H 8600 4500 50  0000 C CNN
+F 1 "74S04" H 8600 4600 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8650 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8650 4800 50  0001 C CNN
+	6    8650 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
