@@ -3,7 +3,7 @@
 This is a redrawing in KiCad of the original IBM CGA card schematics.
 I intend to use these to help me repair original boards and build a clone.
 
-![IBM CGA](pics/CGA_board.jpg)
+![IBM CGA](pics/CGA_board.png)
 
 Original picture under CC BY-SA 4.0, found [here](https://en.wikipedia.org/wiki/Color_Graphics_Adapter#/media/File:IBM_Color_Graphics_Adapter.jpg)
 
