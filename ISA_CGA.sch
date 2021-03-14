@@ -52,40 +52,40 @@ $EndSheet
 $Comp
 L 74xx:74LS51 U?
 U 3 1 604901DC
-P 7150 5150
+P 6400 5200
 AR Path="/60463BAE/604901DC" Ref="U?"  Part="1" 
 AR Path="/604901DC" Ref="U48"  Part="3" 
-F 0 "U48" H 7000 5500 50  0000 C CNN
-F 1 "74LS51" H 7300 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7150 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 7150 5150 50  0001 C CNN
-	3    7150 5150
+F 0 "U48" H 6250 5550 50  0000 C CNN
+F 1 "74LS51" H 6550 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6400 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6400 5200 50  0001 C CNN
+	3    6400 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 5 1 60495092
-P 7750 5150
+P 7000 5200
 AR Path="/60463BAE/60495092" Ref="U?"  Part="3" 
 AR Path="/60495092" Ref="U49"  Part="5" 
-F 0 "U49" H 7650 5500 50  0000 C CNN
-F 1 "74LS02" H 7900 5500 50  0000 C CNN
-F 2 "" H 7750 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7750 5150 50  0001 C CNN
-	5    7750 5150
+F 0 "U49" H 6900 5550 50  0000 C CNN
+F 1 "74LS02" H 7150 5550 50  0000 C CNN
+F 2 "" H 7000 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7000 5200 50  0001 C CNN
+	5    7000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS125 U?
 U 5 1 6049EC67
-P 8350 5150
+P 7600 5200
 AR Path="/60463BAE/6049EC67" Ref="U?"  Part="1" 
 AR Path="/6049EC67" Ref="U62"  Part="5" 
-F 0 "U62" H 8200 5500 50  0000 C CNN
-F 1 "74LS125" H 8550 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 8350 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 8350 5150 50  0001 C CNN
-	5    8350 5150
+F 0 "U62" H 7450 5550 50  0000 C CNN
+F 1 "74LS125" H 7800 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 7600 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 7600 5200 50  0001 C CNN
+	5    7600 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,27 +130,27 @@ $EndComp
 $Comp
 L 74xx:74LS86 U?
 U 5 1 61CD3D2F
-P 9550 5150
+P 8800 5200
 AR Path="/60463C10/61CD3D2F" Ref="U?"  Part="4" 
 AR Path="/61CD3D2F" Ref="U68"  Part="5" 
-F 0 "U68" H 9450 5500 50  0000 C CNN
-F 1 "74LS86" H 9700 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9550 5150 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 9550 5150 50  0001 C CNN
-	5    9550 5150
+F 0 "U68" H 8700 5550 50  0000 C CNN
+F 1 "74LS86" H 8950 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8800 5200 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 8800 5200 50  0001 C CNN
+	5    8800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 5 1 61D13A76
-P 2850 5150
+P 2100 5200
 AR Path="/60463C10/61D13A76" Ref="U?"  Part="3" 
 AR Path="/61D13A76" Ref="U31"  Part="5" 
-F 0 "U31" H 2700 5500 50  0000 C CNN
-F 1 "74S08" H 3000 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2850 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2850 5150 50  0001 C CNN
-	5    2850 5150
+F 0 "U31" H 1950 5550 50  0000 C CNN
+F 1 "74S08" H 2250 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2100 5200 50  0001 C CNN
+	5    2100 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -169,15 +169,15 @@ $EndComp
 $Comp
 L 74xx:74LS86 U?
 U 5 1 629C2DFD
-P 4050 5150
+P 3300 5200
 AR Path="/60463C10/629C2DFD" Ref="U?"  Part="4" 
 AR Path="/60463C57/629C2DFD" Ref="U?"  Part="1" 
 AR Path="/629C2DFD" Ref="U42"  Part="5" 
-F 0 "U42" H 4200 5500 50  0000 C CNN
-F 1 "74LS86" H 3900 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4050 5150 50  0001 C CNN
-F 3 "74xx/74ls86.pdf" H 4050 5150 50  0001 C CNN
-	5    4050 5150
+F 0 "U42" H 3450 5550 50  0000 C CNN
+F 1 "74LS86" H 3150 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3300 5200 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 3300 5200 50  0001 C CNN
+	5    3300 5200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -197,14 +197,14 @@ $EndComp
 $Comp
 L 74xx:74LS32 U?
 U 5 1 62AC6F3C
-P 2250 5150
+P 1500 5200
 AR Path="/60463C57/62AC6F3C" Ref="U?"  Part="3" 
 AR Path="/62AC6F3C" Ref="U30"  Part="5" 
-F 0 "U30" H 2100 5500 50  0000 C CNN
-F 1 "74LS32" H 2400 5500 50  0000 C CNN
-F 2 "" H 2250 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2250 5150 50  0001 C CNN
-	5    2250 5150
+F 0 "U30" H 1350 5550 50  0000 C CNN
+F 1 "74LS32" H 1650 5550 50  0000 C CNN
+F 2 "" H 1500 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 1500 5200 50  0001 C CNN
+	5    1500 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -275,27 +275,27 @@ $EndComp
 $Comp
 L 74xx:74LS02 U?
 U 5 1 62C4F9F3
-P 8950 5150
+P 8200 5200
 AR Path="/60463C57/62C4F9F3" Ref="U?"  Part="1" 
 AR Path="/62C4F9F3" Ref="U65"  Part="5" 
-F 0 "U65" H 8750 5500 50  0000 L CNN
-F 1 "74LS02" H 8950 5500 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8950 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8950 5150 50  0001 C CNN
-	5    8950 5150
+F 0 "U65" H 8000 5550 50  0000 L CNN
+F 1 "74LS02" H 8200 5550 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8200 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8200 5200 50  0001 C CNN
+	5    8200 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS08 U?
 U 5 1 62CA5B30
-P 3450 5150
+P 2700 5200
 AR Path="/60463C57/62CA5B30" Ref="U?"  Part="4" 
 AR Path="/62CA5B30" Ref="U41"  Part="5" 
-F 0 "U41" H 3300 5500 50  0000 C CNN
-F 1 "74LS08" H 3600 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3450 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3450 5150 50  0001 C CNN
-	5    3450 5150
+F 0 "U41" H 2550 5550 50  0000 C CNN
+F 1 "74LS08" H 2850 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2700 5200 50  0001 C CNN
+	5    2700 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -327,15 +327,15 @@ $EndComp
 $Comp
 L 74xx:74LS04 U?
 U 7 1 63CE58E6
-P 1650 5150
+P 900 5200
 AR Path="/60463C57/63CE58E6" Ref="U?"  Part="6" 
 AR Path="/60463CC5/63CE58E6" Ref="U?"  Part="4" 
 AR Path="/63CE58E6" Ref="U29"  Part="7" 
-F 0 "U29" H 1500 5500 50  0000 C CNN
-F 1 "74S04" H 1800 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1650 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1650 5150 50  0001 C CNN
-	7    1650 5150
+F 0 "U29" H 750 5550 50  0000 C CNN
+F 1 "74S04" H 1050 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 900 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 900 5200 50  0001 C CNN
+	7    900  5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -407,53 +407,279 @@ $EndComp
 $Comp
 L 74xx:74LS00 U?
 U 5 1 63EF37A2
-P 5950 5150
+P 5200 5200
 AR Path="/60463CC5/63EF37A2" Ref="U?"  Part="1" 
 AR Path="/63EF37A2" Ref="U46"  Part="5" 
-F 0 "U46" H 5800 5500 50  0000 C CNN
-F 1 "74LS00" H 6100 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5950 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5950 5150 50  0001 C CNN
-	5    5950 5150
+F 0 "U46" H 5050 5550 50  0000 C CNN
+F 1 "74LS00" H 5350 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5200 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5200 5200 50  0001 C CNN
+	5    5200 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS51 U?
 U 3 1 63F54015
-P 6550 5150
+P 5800 5200
 AR Path="/60463CC5/63F54015" Ref="U?"  Part="2" 
 AR Path="/63F54015" Ref="U47"  Part="3" 
-F 0 "U47" H 6300 5500 50  0000 L CNN
-F 1 "74LS51" H 6600 5500 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6550 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6550 5150 50  0001 C CNN
-	3    6550 5150
+F 0 "U47" H 5550 5550 50  0000 L CNN
+F 1 "74LS51" H 5850 5550 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5800 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 5800 5200 50  0001 C CNN
+	3    5800 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS74 U?
 U 3 1 64BD6305
-P 5350 5150
+P 4600 5200
 AR Path="/60463CF3/64BD6305" Ref="U?"  Part="1" 
 AR Path="/64BD6305" Ref="U44"  Part="3" 
-F 0 "U44" H 5200 5500 50  0000 C CNN
-F 1 "74S74" H 5500 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5350 5150 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 5350 5150 50  0001 C CNN
-	3    5350 5150
+F 0 "U44" H 4450 5550 50  0000 C CNN
+F 1 "74S74" H 4750 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4600 5200 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 4600 5200 50  0001 C CNN
+	3    4600 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS74 U?
 U 3 1 64C32517
-P 4700 5150
+P 3950 5200
 AR Path="/60463CF3/64C32517" Ref="U?"  Part="1" 
 AR Path="/64C32517" Ref="U43"  Part="3" 
-F 0 "U43" H 4550 5500 50  0000 C CNN
-F 1 "74S74" H 4850 5500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4700 5150 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 4700 5150 50  0001 C CNN
-	3    4700 5150
+F 0 "U43" H 3800 5550 50  0000 C CNN
+F 1 "74S74" H 4100 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3950 5200 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 3950 5200 50  0001 C CNN
+	3    3950 5200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10600 2850 10000 2850
+Wire Wire Line
+	900  2850 900  2750
+Connection ~ 2100 2850
+Wire Wire Line
+	2100 2850 1500 2850
+Connection ~ 2700 2850
+Wire Wire Line
+	2700 2850 2100 2850
+Connection ~ 3900 2850
+Wire Wire Line
+	3900 2850 3300 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2850 3900 2850
+Connection ~ 5100 2850
+Wire Wire Line
+	5100 2850 4500 2850
+Connection ~ 5700 2850
+Wire Wire Line
+	5700 2850 5100 2850
+Connection ~ 6300 2850
+Wire Wire Line
+	6300 2850 5700 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6900 2850 6300 2850
+Connection ~ 7500 2850
+Wire Wire Line
+	7500 2850 6900 2850
+Connection ~ 8150 2850
+Wire Wire Line
+	8150 2850 7500 2850
+Connection ~ 8800 2850
+Wire Wire Line
+	8800 2850 8150 2850
+Connection ~ 9400 2850
+Wire Wire Line
+	9400 2850 8800 2850
+Connection ~ 10000 2850
+Wire Wire Line
+	10000 2850 9400 2850
+Wire Wire Line
+	1500 2950 1500 2850
+Connection ~ 1500 2850
+Wire Wire Line
+	1500 2850 900  2850
+Wire Wire Line
+	900  2950 900  2850
+Connection ~ 900  2850
+Wire Wire Line
+	10600 3850 10000 3850
+Wire Wire Line
+	900  3850 900  4050
+Connection ~ 2100 3850
+Wire Wire Line
+	2100 3850 1500 3850
+Connection ~ 2700 3850
+Wire Wire Line
+	2700 3850 2100 3850
+Connection ~ 3900 3850
+Wire Wire Line
+	3900 3850 3300 3850
+Connection ~ 4500 3850
+Wire Wire Line
+	4500 3850 3900 3850
+Connection ~ 5100 3850
+Wire Wire Line
+	5100 3850 4500 3850
+Connection ~ 5700 3850
+Wire Wire Line
+	5700 3850 5100 3850
+Connection ~ 6300 3850
+Wire Wire Line
+	6300 3850 5700 3850
+Connection ~ 6900 3850
+Wire Wire Line
+	6900 3850 6300 3850
+Connection ~ 7500 3850
+Wire Wire Line
+	7500 3850 6900 3850
+Connection ~ 8150 3850
+Wire Wire Line
+	8150 3850 7500 3850
+Connection ~ 8800 3850
+Wire Wire Line
+	8800 3850 8150 3850
+Connection ~ 9400 3850
+Wire Wire Line
+	9400 3850 8800 3850
+Connection ~ 10000 3850
+Wire Wire Line
+	10000 3850 9400 3850
+Wire Wire Line
+	1500 3750 1500 3850
+Connection ~ 1500 3850
+Wire Wire Line
+	1500 3850 900  3850
+Wire Wire Line
+	900  3750 900  3850
+Connection ~ 900  3850
+$Comp
+L power:VCC #PWR?
+U 1 1 6514F16C
+P 900 2750
+F 0 "#PWR?" H 900 2600 50  0001 C CNN
+F 1 "VCC" H 915 2923 50  0000 C CNN
+F 2 "" H 900 2750 50  0001 C CNN
+F 3 "" H 900 2750 50  0001 C CNN
+	1    900  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6515124A
+P 900 4050
+F 0 "#PWR?" H 900 3800 50  0001 C CNN
+F 1 "GND" H 905 3877 50  0000 C CNN
+F 2 "" H 900 4050 50  0001 C CNN
+F 3 "" H 900 4050 50  0001 C CNN
+	1    900  4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4700 8200 4700
+Connection ~ 1500 4700
+Wire Wire Line
+	1500 4700 900  4700
+Connection ~ 2100 4700
+Wire Wire Line
+	2100 4700 1500 4700
+Connection ~ 2700 4700
+Wire Wire Line
+	2700 4700 2100 4700
+Connection ~ 3300 4700
+Wire Wire Line
+	3300 4700 2700 4700
+Connection ~ 5200 4700
+Wire Wire Line
+	5200 4700 3300 4700
+Connection ~ 5800 4700
+Wire Wire Line
+	5800 4700 5200 4700
+Connection ~ 6400 4700
+Wire Wire Line
+	6400 4700 5800 4700
+Connection ~ 7000 4700
+Wire Wire Line
+	7000 4700 6400 4700
+Connection ~ 7600 4700
+Wire Wire Line
+	7600 4700 7000 4700
+Connection ~ 8200 4700
+Wire Wire Line
+	8200 4700 7600 4700
+Wire Wire Line
+	900  5700 1500 5700
+Connection ~ 1500 5700
+Wire Wire Line
+	1500 5700 2100 5700
+Connection ~ 2100 5700
+Wire Wire Line
+	2100 5700 2700 5700
+Connection ~ 2700 5700
+Wire Wire Line
+	2700 5700 3300 5700
+Connection ~ 3300 5700
+Wire Wire Line
+	3300 5700 5200 5700
+Connection ~ 5200 5700
+Wire Wire Line
+	5200 5700 5800 5700
+Connection ~ 5800 5700
+Wire Wire Line
+	5800 5700 6400 5700
+Connection ~ 6400 5700
+Wire Wire Line
+	6400 5700 7000 5700
+Connection ~ 7000 5700
+Wire Wire Line
+	7000 5700 7600 5700
+Connection ~ 7600 5700
+Wire Wire Line
+	7600 5700 8200 5700
+Connection ~ 8200 5700
+Wire Wire Line
+	8200 5700 8800 5700
+Wire Wire Line
+	900  4700 900  4600
+Connection ~ 900  4700
+Wire Wire Line
+	900  5700 900  5800
+Connection ~ 900  5700
+$Comp
+L power:VCC #PWR?
+U 1 1 65182D1C
+P 900 4600
+F 0 "#PWR?" H 900 4450 50  0001 C CNN
+F 1 "VCC" H 915 4773 50  0000 C CNN
+F 2 "" H 900 4600 50  0001 C CNN
+F 3 "" H 900 4600 50  0001 C CNN
+	1    900  4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6518518B
+P 900 5800
+F 0 "#PWR?" H 900 5550 50  0001 C CNN
+F 1 "GND" H 905 5627 50  0000 C CNN
+F 2 "" H 900 5800 50  0001 C CNN
+F 3 "" H 900 5800 50  0001 C CNN
+	1    900  5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2950 3300 2850
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 2700 2850
+Wire Wire Line
+	3300 3750 3300 3850
+Connection ~ 3300 3850
+Wire Wire Line
+	3300 3850 2700 3850
 $EndSCHEMATC
