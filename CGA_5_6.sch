@@ -399,4 +399,49 @@ Wire Wire Line
 	1750 4950 1750 4050
 Wire Wire Line
 	1750 4050 2200 4050
+$Comp
+L 74xx:74LS32 U?
+U 4 1 6401699A
+P 7200 3250
+AR Path="/60463BAE/6401699A" Ref="U?"  Part="2" 
+AR Path="/60463CF3/6401699A" Ref="U14"  Part="4" 
+F 0 "U14" H 7200 2933 50  0000 C CNN
+F 1 "74LS32" H 7200 3024 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7200 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 7200 3250 50  0001 C CNN
+	4    7200 3250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3150 6900 3150
+$Comp
+L 74xx:74LS04 U?
+U 5 1 6402779D
+P 6450 3350
+AR Path="/60463C57/6402779D" Ref="U?"  Part="2" 
+AR Path="/60463CC5/6402779D" Ref="U?"  Part="3" 
+AR Path="/60463CF3/6402779D" Ref="U20"  Part="5" 
+F 0 "U20" H 6400 3050 50  0000 C CNN
+F 1 "74LS04" H 6400 3150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6450 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6450 3350 50  0001 C CNN
+	5    6450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3350 6900 3350
+Wire Wire Line
+	6150 3350 6000 3350
+Wire Wire Line
+	6000 3350 6000 3750
+Wire Wire Line
+	6000 3750 6550 3750
+Wire Wire Line
+	6550 3750 6550 5050
+Wire Wire Line
+	6550 5050 3250 5050
+Wire Wire Line
+	3250 5050 3250 4350
+Wire Wire Line
+	3250 4350 3000 4350
 $EndSCHEMATC
