@@ -1672,21 +1672,21 @@ Wire Wire Line
 	1000 2800 1150 2800
 Wire Wire Line
 	1000 2700 1150 2700
-Text GLabel 1000 3400 0    50   Input ~ 0
+Text GLabel 1000 3400 0    50   BiDi ~ 0
 MD7
-Text GLabel 1000 3300 0    50   Input ~ 0
+Text GLabel 1000 3300 0    50   BiDi ~ 0
 MD6
-Text GLabel 1000 3200 0    50   Input ~ 0
+Text GLabel 1000 3200 0    50   BiDi ~ 0
 MD5
-Text GLabel 1000 3100 0    50   Input ~ 0
+Text GLabel 1000 3100 0    50   BiDi ~ 0
 MD4
-Text GLabel 1000 3000 0    50   Input ~ 0
+Text GLabel 1000 3000 0    50   BiDi ~ 0
 MD3
-Text GLabel 1000 2900 0    50   Input ~ 0
+Text GLabel 1000 2900 0    50   BiDi ~ 0
 MD2
-Text GLabel 1000 2800 0    50   Input ~ 0
+Text GLabel 1000 2800 0    50   BiDi ~ 0
 MD1
-Text GLabel 1000 2700 0    50   Input ~ 0
+Text GLabel 1000 2700 0    50   BiDi ~ 0
 MD0
 Entry Wire Line
 	1250 2150 1350 2050
