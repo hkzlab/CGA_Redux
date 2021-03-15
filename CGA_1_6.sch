@@ -1467,11 +1467,11 @@ Wire Wire Line
 	4800 1250 4950 1250
 Wire Wire Line
 	4050 950  2200 950 
-Text GLabel 2200 950  0    50   Output ~ 0
+Text GLabel 2200 950  0    50   Input ~ 0
 ~CURSOR_BLINK
 Wire Wire Line
 	4050 1150 2400 1150
-Text GLabel 2200 1150 0    50   Output ~ 0
+Text GLabel 2200 1150 0    50   Input ~ 0
 ~CURSOR_DLY
 $Comp
 L 74xx:74LS08 U13
@@ -1496,7 +1496,7 @@ Wire Wire Line
 	3850 1550 3850 1350
 Wire Wire Line
 	3850 1350 2200 1350
-Text GLabel 2200 1350 0    50   Output ~ 0
+Text GLabel 2200 1350 0    50   Input ~ 0
 CHG_DOTS
 $Comp
 L 74xx:74LS32 U14
@@ -1517,7 +1517,7 @@ Wire Wire Line
 	2500 1650 2500 1550
 Wire Wire Line
 	2500 1550 2200 1550
-Text GLabel 2200 1550 0    50   Output ~ 0
+Text GLabel 2200 1550 0    50   Input ~ 0
 ~BLINK
 $Comp
 L 74xx:74LS10 U28
@@ -1543,11 +1543,11 @@ Wire Wire Line
 Connection ~ 2400 1150
 Wire Wire Line
 	2400 1150 2200 1150
-Text GLabel 2200 2100 0    50   Output ~ 0
+Text GLabel 2200 2100 0    50   Input ~ 0
 ENABLE_BLINK
 Wire Wire Line
 	2200 2100 2500 2100
-Text GLabel 2200 2300 0    50   Output ~ 0
+Text GLabel 2200 2300 0    50   Input ~ 0
 AT7
 Wire Wire Line
 	2500 2200 2300 2200
