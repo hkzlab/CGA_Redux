@@ -316,8 +316,6 @@ Text GLabel 9550 2350 2    50   Output ~ 0
 A17
 Text GLabel 9550 2550 2    50   Output ~ 0
 A15
-Text GLabel 9550 2650 2    50   Output ~ 0
-A14
 Text GLabel 9550 2450 2    50   Output ~ 0
 A16
 Text GLabel 9550 2750 2    50   Output ~ 0
@@ -419,7 +417,7 @@ OSC
 Wire Wire Line
 	2250 5700 2600 5700
 Text GLabel 2600 5700 2    50   Output ~ 0
-14_Mhz
+14_MHZ
 $Comp
 L power:+12V #PWR0218
 U 1 1 64DCD96D
@@ -468,7 +466,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 2950 7150 2950
 Text GLabel 7150 2950 0    50   Output ~ 0
-IOCLK
+IO_CLOCK
 Wire Wire Line
 	9000 2050 9550 2050
 Text GLabel 9550 2050 2    50   Output ~ 0
@@ -482,18 +480,16 @@ Text GLabel 7100 2250 0    50   Output ~ 0
 Text GLabel 7100 2350 0    50   Output ~ 0
 ~IOR
 Wire Wire Line
-	7600 1950 6950 1950
-Wire Wire Line
-	6950 1950 6950 2000
+	6700 1950 6700 2000
 $Comp
 L power:GND #PWR0221
 U 1 1 64DF990F
-P 6950 2000
-F 0 "#PWR0221" H 6950 1750 50  0001 C CNN
-F 1 "GND" H 6955 1827 50  0000 C CNN
-F 2 "" H 6950 2000 50  0001 C CNN
-F 3 "" H 6950 2000 50  0001 C CNN
-	1    6950 2000
+P 6700 2000
+F 0 "#PWR0221" H 6700 1750 50  0001 C CNN
+F 1 "GND" H 6705 1827 50  0000 C CNN
+F 2 "" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1474,4 +1470,30 @@ F 3 "" H 6050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6050 4350
+NoConn ~ 7600 1350
+NoConn ~ 7600 1450
+NoConn ~ 7600 1550
+NoConn ~ 7600 1650
+NoConn ~ 7600 1750
+NoConn ~ 7600 2450
+NoConn ~ 7600 2550
+NoConn ~ 7600 2650
+NoConn ~ 7600 2750
+NoConn ~ 7600 2850
+NoConn ~ 7600 3050
+NoConn ~ 7600 3150
+NoConn ~ 7600 3250
+NoConn ~ 7600 3350
+NoConn ~ 7600 3450
+NoConn ~ 7600 3550
+NoConn ~ 7600 3650
+NoConn ~ 7600 3750
+NoConn ~ 9000 1050
+Wire Wire Line
+	6700 1950 7600 1950
+Wire Wire Line
+	7600 2050 7050 2050
+Text GLabel 7050 2050 0    50   Output ~ 0
+~MEMW
+NoConn ~ 9550 2650
 $EndSCHEMATC

@@ -83,7 +83,7 @@ AR Path="/60463BAE/6049EC67" Ref="U?"  Part="1"
 AR Path="/6049EC67" Ref="U62"  Part="5" 
 F 0 "U62" H 8050 5550 50  0000 C CNN
 F 1 "74LS125" H 8400 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 8200 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8200 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 8200 5200 50  0001 C CNN
 	5    8200 5200
 	1    0    0    -1  
@@ -405,19 +405,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 8100 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS00 U?
-U 5 1 63EF37A2
-P 5800 5200
-AR Path="/60463CC5/63EF37A2" Ref="U?"  Part="1" 
-AR Path="/63EF37A2" Ref="U46"  Part="5" 
-F 0 "U46" H 5650 5550 50  0000 C CNN
-F 1 "74LS00" H 5950 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5800 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5800 5200 50  0001 C CNN
-	5    5800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS51 U?
 U 3 1 63F54015
 P 6400 5200
@@ -428,19 +415,6 @@ F 1 "74LS51" H 6450 5550 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6400 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6400 5200 50  0001 C CNN
 	3    6400 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS74 U?
-U 3 1 64BD6305
-P 5200 5200
-AR Path="/60463CF3/64BD6305" Ref="U?"  Part="1" 
-AR Path="/64BD6305" Ref="U44"  Part="3" 
-F 0 "U44" H 5050 5550 50  0000 C CNN
-F 1 "74S74" H 5350 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5200 5200 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 5200 5200 50  0001 C CNN
-	3    5200 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -581,12 +555,7 @@ Connection ~ 3300 4700
 Wire Wire Line
 	3300 4700 2700 4700
 Connection ~ 5200 4700
-Connection ~ 5800 4700
-Wire Wire Line
-	5800 4700 5200 4700
 Connection ~ 6400 4700
-Wire Wire Line
-	6400 4700 5800 4700
 Connection ~ 7000 4700
 Wire Wire Line
 	7000 4700 6400 4700
@@ -610,16 +579,6 @@ Wire Wire Line
 Connection ~ 3300 5700
 Wire Wire Line
 	3300 5700 3900 5700
-Connection ~ 5200 5700
-Wire Wire Line
-	5200 5700 5800 5700
-Connection ~ 5800 5700
-Wire Wire Line
-	5800 5700 6400 5700
-Connection ~ 6400 5700
-Wire Wire Line
-	6400 5700 7000 5700
-Connection ~ 7000 5700
 Wire Wire Line
 	7000 5700 7600 5700
 Connection ~ 7600 5700
@@ -721,4 +680,45 @@ Connection ~ 8750 2850
 Wire Wire Line
 	8100 3850 8750 3850
 Connection ~ 8750 3850
+Wire Wire Line
+	6400 4700 5800 4700
+Wire Wire Line
+	5800 4700 5200 4700
+Connection ~ 5800 4700
+$Comp
+L 74xx:74LS00 U?
+U 5 1 63EF37A2
+P 5800 5200
+AR Path="/60463CC5/63EF37A2" Ref="U?"  Part="1" 
+AR Path="/63EF37A2" Ref="U46"  Part="5" 
+F 0 "U46" H 5650 5550 50  0000 C CNN
+F 1 "74LS00" H 5950 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5800 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5800 5200 50  0001 C CNN
+	5    5800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 U?
+U 3 1 64BD6305
+P 5200 5200
+AR Path="/60463CF3/64BD6305" Ref="U?"  Part="1" 
+AR Path="/64BD6305" Ref="U44"  Part="3" 
+F 0 "U44" H 5050 5550 50  0000 C CNN
+F 1 "74S74" H 5350 5550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5200 5200 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 5200 5200 50  0001 C CNN
+	3    5200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5700 5800 5700
+Connection ~ 5200 5700
+Connection ~ 7000 5700
+Connection ~ 5800 5700
+Wire Wire Line
+	5800 5700 6400 5700
+Connection ~ 6400 5700
+Wire Wire Line
+	6400 5700 7000 5700
 $EndSCHEMATC
