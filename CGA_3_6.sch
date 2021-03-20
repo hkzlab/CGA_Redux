@@ -927,13 +927,13 @@ Text GLabel 1100 8650 0    50   Input ~ 0
 A15
 $Comp
 L 74xx:74LS00 U15
-U 4 1 6230EF83
+U 3 1 6230EF83
 P 5000 8750
 F 0 "U15" H 5000 9075 50  0000 C CNN
 F 1 "74LS00" H 5000 8984 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5000 8750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5000 8750 50  0001 C CNN
-	4    5000 8750
+	3    5000 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
