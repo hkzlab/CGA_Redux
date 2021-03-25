@@ -1121,7 +1121,7 @@ F 3 "~" H 11600 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 11850 8200 0    50   ~ 0
-No value was specified in the original schematics.\nMy clone CGA card has 47pF caps at the RGBI output\nconnector.
+No value was specified in the original schematics.\nMy CGA card has 47pF caps at the RGBI output\nconnector.
 Wire Wire Line
 	10600 7900 10600 8000
 Connection ~ 10600 8000
