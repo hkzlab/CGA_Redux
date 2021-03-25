@@ -1691,4 +1691,6 @@ Wire Bus Line
 	11350 1200 11350 8550
 Wire Bus Line
 	13850 1200 13850 8550
+Text Notes 11450 950  0    100  ~ 0
+My CGA board uses 8x MCM4517P12 DRAM chips
 $EndSCHEMATC
