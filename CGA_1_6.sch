@@ -442,17 +442,17 @@ Entry Wire Line
 	11350 2300 11450 2400
 Text Label 11450 1800 0    50   ~ 0
 RAM-A0
-Text Label 11450 1900 0    50   ~ 0
-RAM-A1
 Text Label 11450 2000 0    50   ~ 0
+RAM-A1
+Text Label 11450 1900 0    50   ~ 0
 RAM-A2
-Text Label 11450 2100 0    50   ~ 0
-RAM-A3
 Text Label 11450 2200 0    50   ~ 0
-RAM-A4
+RAM-A3
 Text Label 11450 2300 0    50   ~ 0
-RAM-A5
+RAM-A4
 Text Label 11450 2400 0    50   ~ 0
+RAM-A5
+Text Label 11450 2100 0    50   ~ 0
 RAM-A6
 Wire Wire Line
 	11750 2700 11300 2700
@@ -1241,17 +1241,17 @@ Wire Bus Line
 Wire Wire Line
 	11450 1800 11750 1800
 Wire Wire Line
-	11450 1900 11750 1900
-Wire Wire Line
 	11450 2000 11750 2000
 Wire Wire Line
-	11450 2100 11750 2100
+	11450 1900 11750 1900
 Wire Wire Line
 	11450 2200 11750 2200
 Wire Wire Line
 	11450 2300 11750 2300
 Wire Wire Line
 	11450 2400 11750 2400
+Wire Wire Line
+	11450 2100 11750 2100
 Text Label 9200 1400 0    50   ~ 0
 RAM-A0
 Text Label 9200 1500 0    50   ~ 0
@@ -1394,34 +1394,6 @@ Entry Wire Line
 	11350 4250 11450 4350
 Entry Wire Line
 	11350 4350 11450 4450
-Text Label 11450 3850 0    50   ~ 0
-RAM-A0
-Text Label 11450 3950 0    50   ~ 0
-RAM-A1
-Text Label 11450 4050 0    50   ~ 0
-RAM-A2
-Text Label 11450 4150 0    50   ~ 0
-RAM-A3
-Text Label 11450 4250 0    50   ~ 0
-RAM-A4
-Text Label 11450 4350 0    50   ~ 0
-RAM-A5
-Text Label 11450 4450 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	11450 3850 11750 3850
-Wire Wire Line
-	11450 3950 11750 3950
-Wire Wire Line
-	11450 4050 11750 4050
-Wire Wire Line
-	11450 4150 11750 4150
-Wire Wire Line
-	11450 4250 11750 4250
-Wire Wire Line
-	11450 4350 11750 4350
-Wire Wire Line
-	11450 4450 11750 4450
 Entry Wire Line
 	11350 5800 11450 5900
 Entry Wire Line
@@ -1436,34 +1408,6 @@ Entry Wire Line
 	11350 6300 11450 6400
 Entry Wire Line
 	11350 6400 11450 6500
-Text Label 11450 5900 0    50   ~ 0
-RAM-A0
-Text Label 11450 6000 0    50   ~ 0
-RAM-A1
-Text Label 11450 6100 0    50   ~ 0
-RAM-A2
-Text Label 11450 6200 0    50   ~ 0
-RAM-A3
-Text Label 11450 6300 0    50   ~ 0
-RAM-A4
-Text Label 11450 6400 0    50   ~ 0
-RAM-A5
-Text Label 11450 6500 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	11450 5900 11750 5900
-Wire Wire Line
-	11450 6000 11750 6000
-Wire Wire Line
-	11450 6100 11750 6100
-Wire Wire Line
-	11450 6200 11750 6200
-Wire Wire Line
-	11450 6300 11750 6300
-Wire Wire Line
-	11450 6400 11750 6400
-Wire Wire Line
-	11450 6500 11750 6500
 Entry Wire Line
 	11350 7950 11450 8050
 Entry Wire Line
@@ -1478,34 +1422,6 @@ Entry Wire Line
 	11350 8450 11450 8550
 Entry Wire Line
 	11350 8550 11450 8650
-Text Label 11450 8050 0    50   ~ 0
-RAM-A0
-Text Label 11450 8150 0    50   ~ 0
-RAM-A1
-Text Label 11450 8250 0    50   ~ 0
-RAM-A2
-Text Label 11450 8350 0    50   ~ 0
-RAM-A3
-Text Label 11450 8450 0    50   ~ 0
-RAM-A4
-Text Label 11450 8550 0    50   ~ 0
-RAM-A5
-Text Label 11450 8650 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	11450 8050 11750 8050
-Wire Wire Line
-	11450 8150 11750 8150
-Wire Wire Line
-	11450 8250 11750 8250
-Wire Wire Line
-	11450 8350 11750 8350
-Wire Wire Line
-	11450 8450 11750 8450
-Wire Wire Line
-	11450 8550 11750 8550
-Wire Wire Line
-	11450 8650 11750 8650
 Entry Wire Line
 	13850 1700 13950 1800
 Entry Wire Line
@@ -1520,34 +1436,6 @@ Entry Wire Line
 	13850 2200 13950 2300
 Entry Wire Line
 	13850 2300 13950 2400
-Text Label 13950 1800 0    50   ~ 0
-RAM-A0
-Text Label 13950 1900 0    50   ~ 0
-RAM-A1
-Text Label 13950 2000 0    50   ~ 0
-RAM-A2
-Text Label 13950 2100 0    50   ~ 0
-RAM-A3
-Text Label 13950 2200 0    50   ~ 0
-RAM-A4
-Text Label 13950 2300 0    50   ~ 0
-RAM-A5
-Text Label 13950 2400 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	13950 1800 14250 1800
-Wire Wire Line
-	13950 1900 14250 1900
-Wire Wire Line
-	13950 2000 14250 2000
-Wire Wire Line
-	13950 2100 14250 2100
-Wire Wire Line
-	13950 2200 14250 2200
-Wire Wire Line
-	13950 2300 14250 2300
-Wire Wire Line
-	13950 2400 14250 2400
 Entry Wire Line
 	13850 3750 13950 3850
 Entry Wire Line
@@ -1562,34 +1450,6 @@ Entry Wire Line
 	13850 4250 13950 4350
 Entry Wire Line
 	13850 4350 13950 4450
-Text Label 13950 3850 0    50   ~ 0
-RAM-A0
-Text Label 13950 3950 0    50   ~ 0
-RAM-A1
-Text Label 13950 4050 0    50   ~ 0
-RAM-A2
-Text Label 13950 4150 0    50   ~ 0
-RAM-A3
-Text Label 13950 4250 0    50   ~ 0
-RAM-A4
-Text Label 13950 4350 0    50   ~ 0
-RAM-A5
-Text Label 13950 4450 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	13950 3850 14250 3850
-Wire Wire Line
-	13950 3950 14250 3950
-Wire Wire Line
-	13950 4050 14250 4050
-Wire Wire Line
-	13950 4150 14250 4150
-Wire Wire Line
-	13950 4250 14250 4250
-Wire Wire Line
-	13950 4350 14250 4350
-Wire Wire Line
-	13950 4450 14250 4450
 Entry Wire Line
 	13850 5800 13950 5900
 Entry Wire Line
@@ -1604,34 +1464,6 @@ Entry Wire Line
 	13850 6300 13950 6400
 Entry Wire Line
 	13850 6400 13950 6500
-Text Label 13950 5900 0    50   ~ 0
-RAM-A0
-Text Label 13950 6000 0    50   ~ 0
-RAM-A1
-Text Label 13950 6100 0    50   ~ 0
-RAM-A2
-Text Label 13950 6200 0    50   ~ 0
-RAM-A3
-Text Label 13950 6300 0    50   ~ 0
-RAM-A4
-Text Label 13950 6400 0    50   ~ 0
-RAM-A5
-Text Label 13950 6500 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	13950 5900 14250 5900
-Wire Wire Line
-	13950 6000 14250 6000
-Wire Wire Line
-	13950 6100 14250 6100
-Wire Wire Line
-	13950 6200 14250 6200
-Wire Wire Line
-	13950 6300 14250 6300
-Wire Wire Line
-	13950 6400 14250 6400
-Wire Wire Line
-	13950 6500 14250 6500
 Entry Wire Line
 	13850 7950 13950 8050
 Entry Wire Line
@@ -1646,40 +1478,6 @@ Entry Wire Line
 	13850 8450 13950 8550
 Entry Wire Line
 	13850 8550 13950 8650
-Text Label 13950 8050 0    50   ~ 0
-RAM-A0
-Text Label 13950 8150 0    50   ~ 0
-RAM-A1
-Text Label 13950 8250 0    50   ~ 0
-RAM-A2
-Text Label 13950 8350 0    50   ~ 0
-RAM-A3
-Text Label 13950 8450 0    50   ~ 0
-RAM-A4
-Text Label 13950 8550 0    50   ~ 0
-RAM-A5
-Text Label 13950 8650 0    50   ~ 0
-RAM-A6
-Wire Wire Line
-	13950 8050 14250 8050
-Wire Wire Line
-	13950 8150 14250 8150
-Wire Wire Line
-	13950 8250 14250 8250
-Wire Wire Line
-	13950 8350 14250 8350
-Wire Wire Line
-	13950 8450 14250 8450
-Wire Wire Line
-	13950 8550 14250 8550
-Wire Wire Line
-	13950 8650 14250 8650
-Wire Bus Line
-	13850 1200 13850 8550
-Wire Bus Line
-	9650 1200 9650 8550
-Wire Bus Line
-	11350 1200 11350 8550
 $Comp
 L power:GND #PWR0111
 U 1 1 60472FFD
@@ -1691,4 +1489,206 @@ F 3 "" H 12200 9300 50  0001 C CNN
 	1    12200 9300
 	1    0    0    -1  
 $EndComp
+Text Label 11450 3850 0    50   ~ 0
+RAM-A0
+Text Label 11450 4050 0    50   ~ 0
+RAM-A1
+Text Label 11450 3950 0    50   ~ 0
+RAM-A2
+Text Label 11450 4250 0    50   ~ 0
+RAM-A3
+Text Label 11450 4350 0    50   ~ 0
+RAM-A4
+Text Label 11450 4450 0    50   ~ 0
+RAM-A5
+Text Label 11450 4150 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	11450 3850 11750 3850
+Wire Wire Line
+	11450 4050 11750 4050
+Wire Wire Line
+	11450 3950 11750 3950
+Wire Wire Line
+	11450 4250 11750 4250
+Wire Wire Line
+	11450 4350 11750 4350
+Wire Wire Line
+	11450 4450 11750 4450
+Wire Wire Line
+	11450 4150 11750 4150
+Text Label 13950 1800 0    50   ~ 0
+RAM-A0
+Text Label 13950 2000 0    50   ~ 0
+RAM-A1
+Text Label 13950 1900 0    50   ~ 0
+RAM-A2
+Text Label 13950 2200 0    50   ~ 0
+RAM-A3
+Text Label 13950 2300 0    50   ~ 0
+RAM-A4
+Text Label 13950 2400 0    50   ~ 0
+RAM-A5
+Text Label 13950 2100 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	13950 1800 14250 1800
+Wire Wire Line
+	13950 2000 14250 2000
+Wire Wire Line
+	13950 1900 14250 1900
+Wire Wire Line
+	13950 2200 14250 2200
+Wire Wire Line
+	13950 2300 14250 2300
+Wire Wire Line
+	13950 2400 14250 2400
+Wire Wire Line
+	13950 2100 14250 2100
+Text Label 13950 3850 0    50   ~ 0
+RAM-A0
+Text Label 13950 4050 0    50   ~ 0
+RAM-A1
+Text Label 13950 3950 0    50   ~ 0
+RAM-A2
+Text Label 13950 4250 0    50   ~ 0
+RAM-A3
+Text Label 13950 4350 0    50   ~ 0
+RAM-A4
+Text Label 13950 4450 0    50   ~ 0
+RAM-A5
+Text Label 13950 4150 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	13950 3850 14250 3850
+Wire Wire Line
+	13950 4050 14250 4050
+Wire Wire Line
+	13950 3950 14250 3950
+Wire Wire Line
+	13950 4250 14250 4250
+Wire Wire Line
+	13950 4350 14250 4350
+Wire Wire Line
+	13950 4450 14250 4450
+Wire Wire Line
+	13950 4150 14250 4150
+Text Label 13950 5900 0    50   ~ 0
+RAM-A0
+Text Label 13950 6100 0    50   ~ 0
+RAM-A1
+Text Label 13950 6000 0    50   ~ 0
+RAM-A2
+Text Label 13950 6300 0    50   ~ 0
+RAM-A3
+Text Label 13950 6400 0    50   ~ 0
+RAM-A4
+Text Label 13950 6500 0    50   ~ 0
+RAM-A5
+Text Label 13950 6200 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	13950 5900 14250 5900
+Wire Wire Line
+	13950 6100 14250 6100
+Wire Wire Line
+	13950 6000 14250 6000
+Wire Wire Line
+	13950 6300 14250 6300
+Wire Wire Line
+	13950 6400 14250 6400
+Wire Wire Line
+	13950 6500 14250 6500
+Wire Wire Line
+	13950 6200 14250 6200
+Text Label 13950 8050 0    50   ~ 0
+RAM-A0
+Text Label 13950 8250 0    50   ~ 0
+RAM-A1
+Text Label 13950 8150 0    50   ~ 0
+RAM-A2
+Text Label 13950 8450 0    50   ~ 0
+RAM-A3
+Text Label 13950 8550 0    50   ~ 0
+RAM-A4
+Text Label 13950 8650 0    50   ~ 0
+RAM-A5
+Text Label 13950 8350 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	13950 8050 14250 8050
+Wire Wire Line
+	13950 8250 14250 8250
+Wire Wire Line
+	13950 8150 14250 8150
+Wire Wire Line
+	13950 8450 14250 8450
+Wire Wire Line
+	13950 8550 14250 8550
+Wire Wire Line
+	13950 8650 14250 8650
+Wire Wire Line
+	13950 8350 14250 8350
+Text Label 11450 8050 0    50   ~ 0
+RAM-A0
+Text Label 11450 8250 0    50   ~ 0
+RAM-A1
+Text Label 11450 8150 0    50   ~ 0
+RAM-A2
+Text Label 11450 8450 0    50   ~ 0
+RAM-A3
+Text Label 11450 8550 0    50   ~ 0
+RAM-A4
+Text Label 11450 8650 0    50   ~ 0
+RAM-A5
+Text Label 11450 8350 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	11450 8050 11750 8050
+Wire Wire Line
+	11450 8250 11750 8250
+Wire Wire Line
+	11450 8150 11750 8150
+Wire Wire Line
+	11450 8450 11750 8450
+Wire Wire Line
+	11450 8550 11750 8550
+Wire Wire Line
+	11450 8650 11750 8650
+Wire Wire Line
+	11450 8350 11750 8350
+Text Label 11450 5900 0    50   ~ 0
+RAM-A0
+Text Label 11450 6100 0    50   ~ 0
+RAM-A1
+Text Label 11450 6000 0    50   ~ 0
+RAM-A2
+Text Label 11450 6300 0    50   ~ 0
+RAM-A3
+Text Label 11450 6400 0    50   ~ 0
+RAM-A4
+Text Label 11450 6500 0    50   ~ 0
+RAM-A5
+Text Label 11450 6200 0    50   ~ 0
+RAM-A6
+Wire Wire Line
+	11450 5900 11750 5900
+Wire Wire Line
+	11450 6100 11750 6100
+Wire Wire Line
+	11450 6000 11750 6000
+Wire Wire Line
+	11450 6300 11750 6300
+Wire Wire Line
+	11450 6400 11750 6400
+Wire Wire Line
+	11450 6500 11750 6500
+Wire Wire Line
+	11450 6200 11750 6200
+Wire Bus Line
+	9650 1200 9650 8550
+Wire Bus Line
+	11350 1200 11350 8550
+Wire Bus Line
+	13850 1200 13850 8550
 $EndSCHEMATC
