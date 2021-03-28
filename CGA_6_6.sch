@@ -754,8 +754,8 @@ $Comp
 L Connector_Generic:Conn_01x06 P2
 U 1 1 64ED37DC
 P 5850 3450
-F 0 "P2" H 6000 3350 50  0000 C CNN
-F 1 "1X6 BERG" H 6100 3450 50  0000 C CNN
+F 0 "P2" H 6000 3500 50  0000 C CNN
+F 1 "1X6 BERG" H 6100 3600 50  0000 C CNN
 F 2 "" H 5850 3450 50  0001 C CNN
 F 3 "~" H 5850 3450 50  0001 C CNN
 	1    5850 3450
@@ -807,9 +807,9 @@ Wire Wire Line
 	5650 3350 4600 3350
 Wire Wire Line
 	4600 3350 4600 3400
-Text GLabel 5250 3450 0    50   Input ~ 0
+Text GLabel 5250 3450 0    50   Output ~ 0
 ~LPEN_SW
-Text GLabel 5250 3650 0    50   Input ~ 0
+Text GLabel 5250 3650 0    50   Output ~ 0
 ~LPEN_INPUT
 Wire Wire Line
 	5250 3450 5650 3450
@@ -1496,4 +1496,6 @@ Wire Wire Line
 Text GLabel 7050 2050 0    50   Output ~ 0
 ~MEMW
 NoConn ~ 9550 2650
+Text Notes 5950 3300 0    50   ~ 0
+Light pen\nconnector
 $EndSCHEMATC
