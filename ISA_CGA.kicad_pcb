@@ -9884,4 +9884,56 @@
     (arrow2b (pts (xy 276.86 217.17) (xy 277.986504 216.583579)))
   )
 
+  (zone (net 0) (net_name "") (layers F.Cu In1.Cu In2.Cu B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 295.402 211.836) (xy 293.878 211.836) (xy 293.878 203.962) (xy 295.402 203.962)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layers F.Cu In1.Cu In2.Cu B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 375.412 211.836) (xy 373.888 211.836) (xy 373.888 203.708) (xy 375.412 203.708)
+      )
+    )
+  )
+  (zone (net 14) (net_name "Net-(J2-Pad3)") (layer F.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 375.412 211.836) (xy 293.878 211.836) (xy 293.878 203.708) (xy 375.412 203.708)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 375.285 211.709) (xy 294.005 211.709) (xy 294.005 203.835) (xy 375.285 203.835)
+      )
+    )
+  )
+  (zone (net 14) (net_name "Net-(J2-Pad3)") (layer B.SilkS) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 375.412 211.836) (xy 293.878 211.836) (xy 293.878 203.708) (xy 375.412 203.708)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 375.285 211.709) (xy 294.005 211.709) (xy 294.005 203.835) (xy 375.285 203.835)
+      )
+    )
+  )
 )
