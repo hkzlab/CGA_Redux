@@ -202,7 +202,7 @@ AR Path="/60463C57/62AC6F3C" Ref="U?"  Part="3"
 AR Path="/62AC6F3C" Ref="U30"  Part="5" 
 F 0 "U30" H 1950 5550 50  0000 C CNN
 F 1 "74LS32" H 2250 5550 50  0000 C CNN
-F 2 "" H 2100 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2100 5200 50  0001 C CNN
 	5    2100 5200
 	1    0    0    -1  
