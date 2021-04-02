@@ -57,7 +57,7 @@ AR Path="/60463BAE/604901DC" Ref="U?"  Part="1"
 AR Path="/604901DC" Ref="U48"  Part="3" 
 F 0 "U48" H 6850 5550 50  0000 C CNN
 F 1 "74LS51" H 7150 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7000 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7000 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 7000 5200 50  0001 C CNN
 	3    7000 5200
 	1    0    0    -1  
@@ -70,7 +70,7 @@ AR Path="/60463BAE/60495092" Ref="U?"  Part="3"
 AR Path="/60495092" Ref="U49"  Part="5" 
 F 0 "U49" H 7500 5550 50  0000 C CNN
 F 1 "74LS02" H 7750 5550 50  0000 C CNN
-F 2 "" H 7600 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7600 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7600 5200 50  0001 C CNN
 	5    7600 5200
 	1    0    0    -1  
@@ -83,7 +83,7 @@ AR Path="/60463BAE/6049EC67" Ref="U?"  Part="1"
 AR Path="/6049EC67" Ref="U62"  Part="5" 
 F 0 "U62" H 8050 5550 50  0000 C CNN
 F 1 "74LS125" H 8400 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8200 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8200 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 8200 5200 50  0001 C CNN
 	5    8200 5200
 	1    0    0    -1  
@@ -96,7 +96,7 @@ AR Path="/60463BAE/60735FFE" Ref="U?"  Part="4"
 AR Path="/60735FFE" Ref="U13"  Part="5" 
 F 0 "U13" H 4400 3700 50  0000 R CNN
 F 1 "74LS08" H 4800 3700 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4500 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4500 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 4500 3350 50  0001 C CNN
 	5    4500 3350
 	1    0    0    -1  
@@ -109,7 +109,7 @@ AR Path="/60463BAE/6073B547" Ref="U?"  Part="3"
 AR Path="/6073B547" Ref="U28"  Part="4" 
 F 0 "U28" H 650 5550 50  0000 L CNN
 F 1 "74LS10" H 900 5550 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 900 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 900 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 900 5200 50  0001 C CNN
 	4    900  5200
 	1    0    0    -1  
@@ -122,7 +122,7 @@ AR Path="/60463BAE/607513C2" Ref="U?"  Part="2"
 AR Path="/607513C2" Ref="U14"  Part="5" 
 F 0 "U14" H 5050 3700 50  0000 R CNN
 F 1 "74S32" H 5400 3700 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5100 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5100 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5100 3350 50  0001 C CNN
 	5    5100 3350
 	1    0    0    -1  
@@ -135,7 +135,7 @@ AR Path="/60463C10/61CD3D2F" Ref="U?"  Part="4"
 AR Path="/61CD3D2F" Ref="U68"  Part="5" 
 F 0 "U68" H 9300 5550 50  0000 C CNN
 F 1 "74LS86" H 9550 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9400 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9400 5200 50  0001 C CNN
 F 3 "74xx/74ls86.pdf" H 9400 5200 50  0001 C CNN
 	5    9400 5200
 	1    0    0    -1  
@@ -148,7 +148,7 @@ AR Path="/60463C10/61D13A76" Ref="U?"  Part="3"
 AR Path="/61D13A76" Ref="U31"  Part="5" 
 F 0 "U31" H 2550 5550 50  0000 C CNN
 F 1 "74S08" H 2850 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2700 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2700 5200 50  0001 C CNN
 	5    2700 5200
 	1    0    0    -1  
@@ -161,7 +161,7 @@ AR Path="/60463C57/629AA462" Ref="U?"  Part="1"
 AR Path="/629AA462" Ref="U6"  Part="7" 
 F 0 "U6" H 2550 3700 50  0000 C CNN
 F 1 "74LS04" H 2850 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2700 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2700 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2700 3350 50  0001 C CNN
 	7    2700 3350
 	1    0    0    -1  
@@ -175,7 +175,7 @@ AR Path="/60463C57/629C2DFD" Ref="U?"  Part="1"
 AR Path="/629C2DFD" Ref="U42"  Part="5" 
 F 0 "U42" H 4050 5550 50  0000 C CNN
 F 1 "74LS86" H 3750 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3900 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3900 5200 50  0001 C CNN
 F 3 "74xx/74ls86.pdf" H 3900 5200 50  0001 C CNN
 	5    3900 5200
 	-1   0    0    -1  
@@ -189,7 +189,7 @@ AR Path="/60463C57/62A03D9F" Ref="U?"  Part="4"
 AR Path="/62A03D9F" Ref="U3"  Part="5" 
 F 0 "U3" H 1950 3700 50  0000 C CNN
 F 1 "74S86" H 2250 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2100 3350 50  0001 C CNN
 F 3 "74xx/74ls86.pdf" H 2100 3350 50  0001 C CNN
 	5    2100 3350
 	1    0    0    -1  
@@ -202,7 +202,7 @@ AR Path="/60463C57/62AC6F3C" Ref="U?"  Part="3"
 AR Path="/62AC6F3C" Ref="U30"  Part="5" 
 F 0 "U30" H 1950 5550 50  0000 C CNN
 F 1 "74LS32" H 2250 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2100 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2100 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2100 5200 50  0001 C CNN
 	5    2100 5200
 	1    0    0    -1  
@@ -215,7 +215,7 @@ AR Path="/60463C57/62B017B6" Ref="U?"  Part="2"
 AR Path="/62B017B6" Ref="U1"  Part="3" 
 F 0 "U1" H 750 3700 50  0000 C CNN
 F 1 "74S112" H 1100 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 900 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 900 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS112" H 900 3350 50  0001 C CNN
 	3    900  3350
 	1    0    0    -1  
@@ -228,7 +228,7 @@ AR Path="/60463C57/62B28623" Ref="U?"  Part="1"
 AR Path="/62B28623" Ref="U12"  Part="3" 
 F 0 "U12" H 3650 3700 50  0000 L CNN
 F 1 "74LS393" H 3900 3700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3900 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3900 3350 50  0001 C CNN
 F 3 "74xx\\74LS393.pdf" H 3900 3350 50  0001 C CNN
 	3    3900 3350
 	1    0    0    -1  
@@ -241,7 +241,7 @@ AR Path="/60463C57/62B87292" Ref="U?"  Part="2"
 AR Path="/62B87292" Ref="U11"  Part="3" 
 F 0 "U11" H 3150 3700 50  0000 C CNN
 F 1 "74LS74" H 3500 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3300 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3300 3350 50  0001 C CNN
 F 3 "74xx/74hc_hct74.pdf" H 3300 3350 50  0001 C CNN
 	3    3300 3350
 	1    0    0    -1  
@@ -254,7 +254,7 @@ AR Path="/60463C57/62BBA7C0" Ref="U?"  Part="4"
 AR Path="/62BBA7C0" Ref="U15"  Part="5" 
 F 0 "U15" H 5500 3700 50  0000 L CNN
 F 1 "74LS00" H 5700 3700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5700 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5700 3350 50  0001 C CNN
 	5    5700 3350
 	1    0    0    -1  
@@ -267,7 +267,7 @@ AR Path="/60463C57/62C23B1E" Ref="U?"  Part="1"
 AR Path="/62C23B1E" Ref="U16"  Part="7" 
 F 0 "U16" H 6150 3700 50  0000 C CNN
 F 1 "74LS04" H 6450 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6300 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6300 3350 50  0001 C CNN
 	7    6300 3350
 	1    0    0    -1  
@@ -280,7 +280,7 @@ AR Path="/60463C57/62C4F9F3" Ref="U?"  Part="1"
 AR Path="/62C4F9F3" Ref="U65"  Part="5" 
 F 0 "U65" H 8600 5550 50  0000 L CNN
 F 1 "74LS02" H 8800 5550 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8800 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8800 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 8800 5200 50  0001 C CNN
 	5    8800 5200
 	1    0    0    -1  
@@ -293,7 +293,7 @@ AR Path="/60463C57/62CA5B30" Ref="U?"  Part="4"
 AR Path="/62CA5B30" Ref="U41"  Part="5" 
 F 0 "U41" H 3150 5550 50  0000 C CNN
 F 1 "74LS08" H 3450 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3300 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3300 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3300 5200 50  0001 C CNN
 	5    3300 5200
 	1    0    0    -1  
@@ -306,7 +306,7 @@ AR Path="/60463C57/62CEF608" Ref="U?"  Part="2"
 AR Path="/62CEF608" Ref="U26"  Part="7" 
 F 0 "U26" H 9850 3700 50  0000 C CNN
 F 1 "74S04" H 10150 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10000 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10000 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10000 3350 50  0001 C CNN
 	7    10000 3350
 	1    0    0    -1  
@@ -319,7 +319,7 @@ AR Path="/60463CC5/63CB3629" Ref="U?"  Part="1"
 AR Path="/63CB3629" Ref="U22"  Part="3" 
 F 0 "U22" H 7450 3700 50  0000 R CNN
 F 1 "74LS51" H 7800 3700 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7500 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7500 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 7500 3350 50  0001 C CNN
 	3    7500 3350
 	1    0    0    -1  
@@ -333,7 +333,7 @@ AR Path="/60463CC5/63CE58E6" Ref="U?"  Part="4"
 AR Path="/63CE58E6" Ref="U29"  Part="7" 
 F 0 "U29" H 1350 5550 50  0000 C CNN
 F 1 "74S04" H 1650 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1500 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1500 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1500 5200 50  0001 C CNN
 	7    1500 5200
 	1    0    0    -1  
@@ -346,7 +346,7 @@ AR Path="/60463CC5/63D29B72" Ref="U?"  Part="4"
 AR Path="/63D29B72" Ref="U25"  Part="5" 
 F 0 "U25" H 9250 3700 50  0000 C CNN
 F 1 "74LS00" H 9550 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9400 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9400 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9400 3350 50  0001 C CNN
 	5    9400 3350
 	1    0    0    -1  
@@ -359,7 +359,7 @@ AR Path="/60463CC5/63D7FAA6" Ref="U?"  Part="2"
 AR Path="/63D7FAA6" Ref="U27"  Part="3" 
 F 0 "U27" H 10350 3700 50  0000 L CNN
 F 1 "74LS51" H 10600 3700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10600 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10600 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 10600 3350 50  0001 C CNN
 	3    10600 3350
 	1    0    0    -1  
@@ -372,7 +372,7 @@ AR Path="/60463CC5/63DD35F4" Ref="U?"  Part="1"
 AR Path="/63DD35F4" Ref="U2"  Part="3" 
 F 0 "U2" H 1350 3700 50  0000 C CNN
 F 1 "74LS74" H 1650 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1500 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1500 3350 50  0001 C CNN
 F 3 "74xx/74hc_hct74.pdf" H 1500 3350 50  0001 C CNN
 	3    1500 3350
 	1    0    0    -1  
@@ -386,7 +386,7 @@ AR Path="/60463CC5/63E4992D" Ref="U?"  Part="3"
 AR Path="/63E4992D" Ref="U20"  Part="7" 
 F 0 "U20" H 6750 3700 50  0000 C CNN
 F 1 "74LS04" H 7050 3700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6900 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6900 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6900 3350 50  0001 C CNN
 	7    6900 3350
 	1    0    0    -1  
@@ -399,7 +399,7 @@ AR Path="/60463CC5/63E87926" Ref="U?"  Part="2"
 AR Path="/63E87926" Ref="U23"  Part="5" 
 F 0 "U23" H 7850 3700 50  0000 L CNN
 F 1 "74LS32" H 8150 3700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8100 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8100 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 8100 3350 50  0001 C CNN
 	5    8100 3350
 	1    0    0    -1  
@@ -412,7 +412,7 @@ AR Path="/60463CC5/63F54015" Ref="U?"  Part="2"
 AR Path="/63F54015" Ref="U47"  Part="3" 
 F 0 "U47" H 6150 5550 50  0000 L CNN
 F 1 "74LS51" H 6450 5550 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6400 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6400 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls51.pdf" H 6400 5200 50  0001 C CNN
 	3    6400 5200
 	1    0    0    -1  
@@ -425,7 +425,7 @@ AR Path="/60463CF3/64C32517" Ref="U?"  Part="1"
 AR Path="/64C32517" Ref="U43"  Part="3" 
 F 0 "U43" H 4400 5550 50  0000 C CNN
 F 1 "74S74" H 4700 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 4550 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4550 5200 50  0001 C CNN
 F 3 "74xx/74hc_hct74.pdf" H 4550 5200 50  0001 C CNN
 	3    4550 5200
 	1    0    0    -1  
@@ -639,7 +639,7 @@ AR Path="/60463C10/605B8605" Ref="U?"  Part="9"
 AR Path="/605B8605" Ref="U24"  Part="9" 
 F 0 "U24" H 8550 3700 50  0000 L CNN
 F 1 "74LS244" H 8750 3700 50  0000 L CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 8750 3350 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 8750 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls241.pdf" H 8750 3350 50  0001 C CNN
 	9    8750 3350
 	1    0    0    -1  
@@ -693,7 +693,7 @@ AR Path="/60463CC5/63EF37A2" Ref="U?"  Part="1"
 AR Path="/63EF37A2" Ref="U46"  Part="5" 
 F 0 "U46" H 5650 5550 50  0000 C CNN
 F 1 "74LS00" H 5950 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5800 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 5200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5800 5200 50  0001 C CNN
 	5    5800 5200
 	1    0    0    -1  
@@ -706,7 +706,7 @@ AR Path="/60463CF3/64BD6305" Ref="U?"  Part="1"
 AR Path="/64BD6305" Ref="U44"  Part="3" 
 F 0 "U44" H 5050 5550 50  0000 C CNN
 F 1 "74S74" H 5350 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5200 5200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5200 5200 50  0001 C CNN
 F 3 "74xx/74hc_hct74.pdf" H 5200 5200 50  0001 C CNN
 	3    5200 5200
 	1    0    0    -1  
