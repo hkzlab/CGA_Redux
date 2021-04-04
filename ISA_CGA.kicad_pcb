@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 27)
+    (drawings 28)
     (tracks 1021)
     (zones 0)
     (modules 168)
@@ -9737,6 +9737,9 @@
     )
   )
 
+  (gr_text "by Hkz" (at 366.522 167.64) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify right))
+  )
   (gr_text +12V (at 345.694 90.551 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
@@ -9749,8 +9752,8 @@
   (gr_text "Light Pen" (at 356.108 76.962) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "CGA Redux\nRev. 0\n\nby Hkz" (at 369.062 166.37) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)) (justify right))
+  (gr_text "CGA Redux\nRev. 0" (at 366.776 161.798) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.35)) (justify right))
   )
   (gr_text "COLOR GRAPHICS ADAPTER\n- REDUX -" (at 203.835 110.998) (layer F.SilkS)
     (effects (font (size 4 4) (thickness 0.5)))
