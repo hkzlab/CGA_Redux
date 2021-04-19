@@ -1782,28 +1782,11 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 4800 6750 50
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 6950 4250 6950
-Wire Wire Line
-	4250 6950 4250 7050
-Wire Wire Line
 	4250 7250 4400 7250
 Wire Wire Line
 	4400 7150 4250 7150
-Connection ~ 4250 7150
 Wire Wire Line
-	4250 7150 4250 7250
-Wire Wire Line
-	4400 7050 4250 7050
-Connection ~ 4250 7050
-Wire Wire Line
-	4250 7050 4250 7100
-Wire Wire Line
-	4250 7100 3950 7100
-Wire Wire Line
-	3950 7100 3950 7250
-Connection ~ 4250 7100
-Wire Wire Line
-	4250 7100 4250 7150
+	4250 7150 4250 7200
 $Comp
 L power:VCC #PWR0155
 U 1 1 609738F2
@@ -1819,6 +1802,25 @@ Wire Wire Line
 	4400 7450 3750 7450
 Wire Wire Line
 	3750 7450 3750 7350
+Text Notes 4050 8700 0    39   ~ 0
+The original board uses an MK36000 ROM chip\nto keep characters.\n\nThis type of ROM has address lines A0-A12, where\nA11 and A12 are tied HIGH.\n\nMK36000 is 64k-bit or 8K-byte.
+Wire Wire Line
+	4250 7200 3950 7200
+Wire Wire Line
+	3950 7200 3950 7250
+Connection ~ 4250 7200
+Wire Wire Line
+	4250 7200 4250 7250
+Wire Wire Line
+	4400 7050 4300 7050
+Wire Wire Line
+	4300 7050 4300 7000
+Wire Wire Line
+	4300 6950 4400 6950
+Wire Wire Line
+	4300 7000 3750 7000
+Wire Wire Line
+	3750 7000 3750 6900
 Wire Bus Line
 	5350 1200 5350 4100
 Wire Bus Line
@@ -1837,4 +1839,18 @@ Wire Bus Line
 	9900 1250 9900 5250
 Wire Bus Line
 	1250 1450 1250 8300
+Connection ~ 4300 7000
+Wire Wire Line
+	4300 7000 4300 6950
+$Comp
+L power:VCC #PWR?
+U 1 1 609B869D
+P 3750 6900
+F 0 "#PWR?" H 3750 6750 50  0001 C CNN
+F 1 "VCC" H 3765 7073 50  0000 C CNN
+F 2 "" H 3750 6900 50  0001 C CNN
+F 3 "" H 3750 6900 50  0001 C CNN
+	1    3750 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
