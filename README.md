@@ -20,7 +20,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 ### Character ROM
 
-This board needs a character ROM to work. I would advise to search for a dump of IBM P/N 5788005, concatenate it four times and burn it on a 27C256
+This board needs a character ROM to work. I would advise to search for a dump of IBM P/N 5788005, concatenate it four times and burn it on a 27C256 EPROM.
 
 ## Known issues
 
