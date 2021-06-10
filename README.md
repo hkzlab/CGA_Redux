@@ -14,6 +14,20 @@ The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clon
 I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
 You're encourauged to take what you deem fit from this, and use it in your projects!
 
+### Functionalities
+
+✅ means I tested the functionality and it works, ❌ means I tested the functionality and found issues, ? means that the functionality has yet to be tested.
+
+* [✅] Digital display in text mode, 40 columns
+* [✅] Digital display in text mode, 80 columns
+* [✅] Composite display in text mode, 40 columns
+* [?] Composite display in text mode, 80 columns
+* [?] Graphics mode in digital
+* [?] Graphics mode in composite
+* [?] Run CheckIt video test
+* [?] 8088MPH Demo
+* [?] Light pen input
+
 ## Bill of Materials
 
 **TODO**
