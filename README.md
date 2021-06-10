@@ -30,3 +30,7 @@ This board needs a character ROM to work. I would advise to search for a dump of
 * Silkscreen for U28 says 74LS10, but it's actually an 74S10 on an original board (fixed in rev 0.1)
 * traces that connect the edge to the power planes for 5V and GND are a bit too thin for my taste (fixed in rev 0.1)
 
+## Credits
+
+Thanks to [Sergey Kiselev](https://github.com/skiselev) for his symbol/footprint library!
+
