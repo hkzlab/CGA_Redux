@@ -1,16 +1,32 @@
-# IBM Colour Graphics Adapter (CGA) Schematics
+# Color Graphics Adapter - Redux
 
-This is a redrawing in KiCad of the original IBM CGA card schematics.
-I intend to use these to help me repair original boards and build a clone.
+## Introduction
 
-![IBM CGA](pics/CGA_board.png)
+**WARNING:** This card is still undergoing basic testing!
 
-Original picture under CC BY-SA 4.0, found [here](https://en.wikipedia.org/wiki/Color_Graphics_Adapter#/media/File:IBM_Color_Graphics_Adapter.jpg)
+The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clone of the original IBM CGA, based on the original schematics.
 
-## WARNING
+![CGA Redux](pics/CGA_Redux_board.jpg)
 
-This schematic has not yet been verified, it could (and, I'm sure, will) contain errors!
-**Help in double checking** and finding issues is appreciated: you can find the original manual [here](docs/Color_Graphics_Adapter_-_Manual.pdf), 
-see pages 32-37.
 
+### Disclaimer
+
+I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
+You're encourauged to take what you deem fit from this, and use it in your projects!
+
+## Bill of Materials
+
+**TODO**
+
+### Character ROM
+
+This board needs a character ROM to work. I would advise to search for a dump of IBM P/N 5788005, concatenate it four times and burn it on a 27C256
+
+## Known issues
+
+### Rev 0
+
+* The Composite video out has an inverted connection for that type of footprint. (fixed in rev 0.1)
+* Silkscreen for U28 says 74LS10, but it's actually an 74S10 on an original board (fixed in rev 0.1)
+* traces that connect the edge to the power planes for 5V and GND are a bit too thin for my taste (fixed in rev 0.1)
 
