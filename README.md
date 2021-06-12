@@ -21,11 +21,11 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Digital display in text mode, 40 columns
 * [✅] Digital display in text mode, 80 columns
 * [✅] Composite display in text mode, 40 columns
-* [?] Composite display in text mode, 80 columns
-* [?] Graphics mode in digital
-* [?] Graphics mode in composite
-* [?] Run CheckIt video test
-* [?] 8088MPH Demo
+* [✅] Composite display in text mode, 80 columns
+* [✅] Graphics mode in digital
+* [✅] Graphics mode in composite
+* [✅] Run CheckIt video test
+* [✅] 8088MPH Demo
 * [?] Light pen input
 
 ## Bill of Materials
