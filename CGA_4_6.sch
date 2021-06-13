@@ -1303,4 +1303,9 @@ Wire Wire Line
 Connection ~ 4550 9700
 Text GLabel 6700 9700 2    50   Output ~ 0
 GRPH
+Text GLabel 9650 6000 2    50   Output ~ 0
+~BLANK
+Wire Wire Line
+	9650 6000 8600 6000
+Connection ~ 8600 6000
 $EndSCHEMATC

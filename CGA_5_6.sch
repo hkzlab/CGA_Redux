@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 7
 Title ""
 Date ""
-Rev ""
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -683,56 +683,10 @@ Wire Wire Line
 Connection ~ 11200 4850
 Wire Wire Line
 	10600 5500 10900 5500
-$Comp
-L Device:R_Small R?
-U 1 1 6419FB7A
-P 11200 5950
-AR Path="/60463C10/6419FB7A" Ref="R?"  Part="1" 
-AR Path="/60463CF3/6419FB7A" Ref="R1"  Part="1" 
-F 0 "R1" H 11100 5900 50  0000 C CNN
-F 1 "75" H 11100 6000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11200 5950 50  0001 C CNN
-F 3 "~" H 11200 5950 50  0001 C CNN
-	1    11200 5950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	11200 5700 11200 5750
-$Comp
-L power:GND #PWR0198
-U 1 1 641B0622
-P 11200 6150
-F 0 "#PWR0198" H 11200 5900 50  0001 C CNN
-F 1 "GND" H 11205 5977 50  0000 C CNN
-F 2 "" H 11200 6150 50  0001 C CNN
-F 3 "" H 11200 6150 50  0001 C CNN
-	1    11200 6150
-	1    0    0    -1  
-$EndComp
+	11200 5950 11200 6000
 Wire Wire Line
-	11200 6050 11200 6150
-$Comp
-L Device:R_Small R?
-U 1 1 641B7D8A
-P 11500 5750
-AR Path="/60463C10/641B7D8A" Ref="R?"  Part="1" 
-AR Path="/60463CF3/641B7D8A" Ref="R4"  Part="1" 
-F 0 "R4" V 11400 5750 50  0000 C CNN
-F 1 "20" V 11600 5750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11500 5750 50  0001 C CNN
-F 3 "~" H 11500 5750 50  0001 C CNN
-	1    11500 5750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11400 5750 11200 5750
-Connection ~ 11200 5750
-Wire Wire Line
-	11200 5750 11200 5850
-Text GLabel 11750 5750 2    50   Output ~ 0
-COMP_VID
-Wire Wire Line
-	11600 5750 11750 5750
+	11400 6000 11200 6000
 $Comp
 L 74xx:74LS125 U?
 U 3 1 6420F167
@@ -1601,9 +1555,7 @@ Connection ~ 8000 7600
 Wire Wire Line
 	8000 7600 9050 7600
 Wire Wire Line
-	8100 7400 8100 5550
-Wire Wire Line
-	8100 5550 9450 5550
+	8100 7400 8100 5800
 Connection ~ 8100 7400
 Wire Wire Line
 	8100 7400 9050 7400
@@ -1648,4 +1600,90 @@ F 3 "~" H 10850 4850 50  0001 C CNN
 	1    10850 4850
 	0    1    1    0   
 $EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 60CD53CC
+P 8900 5550
+F 0 "JP1" V 8946 5617 50  0000 L CNN
+F 1 "Comp Mod" V 8855 5617 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 8900 5550 50  0001 C CNN
+F 3 "~" H 8900 5550 50  0001 C CNN
+	1    8900 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 5550 9450 5550
+Wire Wire Line
+	8900 5800 8100 5800
+Text GLabel 8600 5300 0    50   Input ~ 0
+~BLANK
+Wire Wire Line
+	8900 5300 8600 5300
+Wire Wire Line
+	11600 6000 11750 6000
+Text GLabel 11750 6000 2    50   Output ~ 0
+COMP_VID
+$Comp
+L Device:R_Small R?
+U 1 1 641B7D8A
+P 11500 6000
+AR Path="/60463C10/641B7D8A" Ref="R?"  Part="1" 
+AR Path="/60463CF3/641B7D8A" Ref="R4"  Part="1" 
+F 0 "R4" V 11400 6000 50  0000 C CNN
+F 1 "20" V 11600 6000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11500 6000 50  0001 C CNN
+F 3 "~" H 11500 6000 50  0001 C CNN
+	1    11500 6000
+	0    1    1    0   
+$EndComp
+Connection ~ 11200 6000
+Wire Wire Line
+	11200 6000 11200 6100
+Wire Wire Line
+	11200 6300 11200 6400
+$Comp
+L power:GND #PWR0198
+U 1 1 641B0622
+P 11200 6400
+F 0 "#PWR0198" H 11200 6150 50  0001 C CNN
+F 1 "GND" H 11205 6227 50  0000 C CNN
+F 2 "" H 11200 6400 50  0001 C CNN
+F 3 "" H 11200 6400 50  0001 C CNN
+	1    11200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6419FB7A
+P 11200 6200
+AR Path="/60463C10/6419FB7A" Ref="R?"  Part="1" 
+AR Path="/60463CF3/6419FB7A" Ref="R1"  Part="1" 
+F 0 "R1" H 11100 6150 50  0000 C CNN
+F 1 "75" H 11100 6250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11200 6200 50  0001 C CNN
+F 3 "~" H 11200 6200 50  0001 C CNN
+	1    11200 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60E2BE95
+P 11200 5850
+AR Path="/60463C10/60E2BE95" Ref="R?"  Part="1" 
+AR Path="/60463CF3/60E2BE95" Ref="R90"  Part="1" 
+F 0 "R90" H 11050 5800 50  0000 C CNN
+F 1 "0" H 11100 5900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11200 5850 50  0001 C CNN
+F 3 "~" H 11200 5850 50  0001 C CNN
+	1    11200 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11200 5750 11200 5700
+Text Notes 13300 5100 0    79   ~ 16
+"OLD" Composite Out mod
+Text Notes 13300 6150 0    50   ~ 0
+- JP1: Jumper 2-3 in place of 1-2\n- R1: 100 ohm\n- R4: 51 ohm\n- R5: 3.3k ohm\n- R6: 13k ohm\n- R7: 5.6k ohm\n- R8: 2.2k ohm\n- R17: do not populate\n- R18: do not populate\n- R19: do not populate\n- R20: do not populate\n- R90: 33 ohm
+Text Notes 8200 6100 0    50   ~ 0
+JP1: Jumper 1-2 for "NEW"\ncomposite output style
 $EndSCHEMATC
