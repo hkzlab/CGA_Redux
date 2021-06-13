@@ -6,6 +6,8 @@ The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clon
 
 ![CGA Redux](pics/CGA_Redux_board.jpg)
 
+This board follows the latest version of the schematic, and thus has the "new" style composite output. You can find an article on how to convert a new style card to an old style one [HERE](http://nerdlypleasures.blogspot.com/2015/08/new-ibm-cga-to-old-ibm-cga-mod.html) (**untested!**).
+
 ### Disclaimer
 
 I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
@@ -46,6 +48,10 @@ This board needs a character ROM to work. I would advise to search for a dump of
 * The Composite video out has an inverted connection for that type of footprint. (fixed in rev 0.1)
 * Silkscreen for U28 says 74LS10, but it's actually an 74S10 on an original board (fixed in rev 0.1)
 * traces that connect the edge to the power planes for 5V and GND are a bit too thin for my taste (fixed in rev 0.1)
+
+## TODO
+
+* Study differences with "old-style" composite outputs in earlier boards and create a board revision for that.
 
 ## Credits
 
