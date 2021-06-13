@@ -24,7 +24,7 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 * [✅] Graphics mode in digital
 * [✅] Graphics mode in composite
 * [✅] Run CheckIt video test
-* [?] 8088MPH Demo (seems to work fine, but my hardware composite->VGA device is old and picky with nonstandard signals, so I'll keep it as '?' until I can try on a proper NTSC CRT)
+* [✅] 8088MPH Demo
 * [?] Light pen input
 
 ## Bill of Materials
