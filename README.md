@@ -2,12 +2,9 @@
 
 ## Introduction
 
-**WARNING:** This card is still undergoing basic testing!
-
 The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clone of the original IBM CGA, based on the original schematics.
 
 ![CGA Redux](pics/CGA_Redux_board.jpg)
-
 
 ### Disclaimer
 
@@ -35,6 +32,12 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 ### Character ROM
 
 This board needs a character ROM to work. I would advise to search for a dump of IBM P/N 5788005, concatenate it four times and burn it on a 27C256 EPROM.
+
+### Component substitutions
+
+* U4,U5 and U101 should all be 'S174s, but I had only 'LS174 available. The board looks to be working without issues anyway
+* U50-U57 are all 120ns DRAMs in my original board. I had only 150ns chips for this build, and they worked fine
+* U50-U57 can theoretically be substituted by 41256 DRAMs (the additional address lines are grounded). **UNTESTED**
 
 ## Known issues
 
