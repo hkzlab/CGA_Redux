@@ -6,7 +6,8 @@ The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clon
 
 ![CGA Redux](pics/CGA_Redux_board.jpg)
 
-This board follows the latest version of the schematic, and thus has the "new" style composite output. You can find an article on how to convert a new style card to an old style one [HERE](http://nerdlypleasures.blogspot.com/2015/08/new-ibm-cga-to-old-ibm-cga-mod.html) (**untested!**).
+Since revision 0.2 of this board, **You can decide to build it with the "new" or "old" style composite output**, giving you slightly different colours.
+Have a look [HERE](https://int10h.org/blog/2015/08/8088-mph-final-old-vs-new-cga-gory-details/) for a blog post that discusses the difference in regard to the famous **8088MPH** demo!
 
 ### Disclaimer
 
@@ -29,7 +30,9 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 
 ## Bill of Materials
 
-**TODO**
+| Component         | Qty | Type / Value        |
+| ----------------- | --- | ------------------- |
+| **TODO**          |     |                     |
 
 ### Character ROM
 
@@ -51,7 +54,7 @@ This board needs a character ROM to work. I would advise to search for a dump of
 
 ## TODO
 
-* Study differences with "old-style" composite outputs in earlier boards and create a board revision for that.
+* ???
 
 ## Credits
 
