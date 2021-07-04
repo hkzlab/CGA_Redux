@@ -7,6 +7,7 @@ The Color Graphics Adapter (**CGA**) Redux board is a more or less faithful clon
 ![CGA Redux](pics/CGA_Redux_board.jpg)
 
 Since revision 0.2 of this board, **You can decide to build it with the "new" or "old" style composite output**, giving you slightly different colours.
+
 Have a look [HERE](https://int10h.org/blog/2015/08/8088-mph-final-old-vs-new-cga-gory-details/) for a blog post that discusses the difference in regard to the famous **8088MPH** demo!
 
 ### Disclaimer
