@@ -43,7 +43,7 @@ This board needs a character ROM to work. I would advise to search for a dump of
 
 * U4,U5 and U101 should all be 'S174s, but I had only 'LS174 available. The board looks to be working without issues anyway
 * U50-U57 are all 120ns DRAMs in my original board. I had only 150ns chips for this build, and they worked fine
-* U50-U57 can theoretically be substituted by 41256 / 4164 DRAMs like the M5K4164 (the additional address lines are grounded). **UNTESTED**
+* U50-U57 can theoretically be substituted by 41256 / 4164 DRAMs like the M5K4164 or HM4864P (the additional address lines are grounded). **Tested with HM4864P**
 
 ## Known issues
 
