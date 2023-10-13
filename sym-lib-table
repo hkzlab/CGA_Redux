@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name my_components)(type Legacy)(uri ${KIPRJMOD}/libraries/my_kicad_library/library/my_components.lib)(options "")(descr ""))
-  (lib (name ISA_CGA)(type Legacy)(uri ${KIPRJMOD}/libraries/ISA_CGA.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "my_components")(type "Legacy")(uri "${KIPRJMOD}/libraries/my_kicad_library/library/my_components.lib")(options "")(descr ""))
+  (lib (name "ISA_CGA")(type "Legacy")(uri "${KIPRJMOD}/libraries/ISA_CGA.lib")(options "")(descr ""))
+  (lib (name "ISA_CGA-rescue")(type "KiCad")(uri "${KIPRJMOD}/ISA_CGA-rescue.kicad_sym")(options "")(descr ""))
 )
