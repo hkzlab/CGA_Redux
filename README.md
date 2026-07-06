@@ -46,6 +46,26 @@ This board needs a character ROM to work. I would advise to search for a dump of
 * U9,U10 are 74153 chips. I tried to replace them with 74LS153 chips by Texas Instruments with good results. **Needs some testing with colored screens**
 * U50-U57 can be substituted by 41256 / 4164 DRAMs like the M5K4164 or HM4864P (the additional address lines are grounded). **Tested with HM4864P**
 
+## Support
+
+If you wish to support me in building new hardware and software for old machines, [throw a few euros in my direction via Ko-Fi](https://ko-fi.com/hkzlab) ☕!
+
+### 💰 Selling these boards 💰
+
+I you want to contact me about selling this project, you can reach me via email at `0hkzUNDERSCOREprojects6ATposteoDOTnet` after properly fixing the email address by removing the digits and replacing the uppercase words with the proper characters.
+
+**Contacts via other channels will be ignored**, as it means you did not read this document thoroughly.
+
+"Collaborations" will boil down to the following:
+
+- If you wish to produce and share this project at a loss or at cost, go for it. I am only asking for attribution and to let me know via email.
+- If you want to do it for profit, let's discuss it. I'll probably settle for a rough 5% of the profit. Importing components is getting more expensive by the day, so this will contribute to me making future projects available for free.
+- I will NOT do customer assistance for you or your customers. This is a hobby, not my job.
+
+If this is not ok for you, you're cordially invited to go bother someone else :)
+
+Authorized sellers will be listed in this README. If you find someone selling my boards without being listed here, it means they're stealing other people's work.
+
 ## Known issues
 
 ### Rev 0
